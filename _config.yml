@@ -1,0 +1,8 @@
+site_name: 'Brian Naja'
+site_url: 'briannaja.com'
+markdown: rdiscount
+rdiscount:
+    extensions: [smart]
+pygments: true
+permalink: /:categories/:title
+paginate: 5

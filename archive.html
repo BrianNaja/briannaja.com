@@ -1,0 +1,20 @@
+---
+layout: default
+title: Archive
+---
+
+	<div class="row">
+    	<section class="ten columns centered archive">
+        	<h2>News Archive</h2>
+		  {% for post in site.posts %}
+		  <article>
+		      <hgroup>
+		          <h2><a href="{{post.url}}">{{post.title}}</a></h2>
+		      </hgroup>
+		      <p><time datetime="{{ post.date | date: "%d %B %Y" }}">{{ post.date | date: "%d %B %Y" }}</time></p>
+					
+					<p><a href="{{post.url}}">Read More &rarr;</a></p>
+		  </article>
+		  {% endfor %}
+		</section>
+  </div>	
