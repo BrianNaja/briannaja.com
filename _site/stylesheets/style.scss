@@ -5,7 +5,7 @@
 /*!Variables*/
 
 $charcoal: #292727;
-$alomstwhite: #D0DDE3;
+$alomstwhite: #d1d1d1;
 $green: #63CCB5;
 $red: #D24D33;
 $brightred: #EC3b18;
@@ -40,6 +40,7 @@ footer, .sticky-footer {
 body {
     font-family: 'Ubuntu', sans-serif;
     font-weight: 100;
+    font-size: 1.2em;
     color: $alomstwhite;
     background: url("images/dark-noise.png");
 }
@@ -84,8 +85,8 @@ header {
 }
 
 header h1 {
-        margin: 2px 0px 12px 0px;
-        font-weight: 300;
+    margin: 2px 0px 12px 0px;
+    font-weight: 300;
 }
 
 header h1 a, header h1 a:hover {
@@ -269,6 +270,10 @@ td, th {
 }
 
 @media only screen and (max-width: 767px) {
+
+body {
+  font-size: 1em;
+}
 
 .gallery img {
     max-width: 90px;
