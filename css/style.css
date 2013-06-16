@@ -191,7 +191,7 @@ figure {
  * Define consistent border, margin, and padding.
  */
 fieldset {
-  border: 1px solid silver;
+  border: 1px solid #c0c0c0;
   margin: 0 2px;
   padding: 0.35em 0.625em 0.75em; }
 
@@ -499,8 +499,8 @@ footer, .sticky-footer {
 /*Sticky Footer End*/
 /*Fonts & Body*/
 body {
-  font-family: "Ubuntu", sans-serif;
-  font-weight: 100;
+  font-family: 'Helvetica', sans-serif;
+  font-weight: 200;
   font-size: 1.2em;
   color: #d1d1d1;
   background: url("images/dark-noise.png"); }
@@ -512,16 +512,19 @@ a:hover {
   color: #05a6ff; }
 
 h2 {
+  font-family: 'Ubuntu', sans-serif;
   font-size: 1.8em;
   font-weight: 200; }
 
 h2 a {
+  font-family: 'Ubuntu', sans-serif;
   color: #d24d33; }
 
 h2 a:hover {
   color: #ec3b18; }
 
 h3, h4, h5, h6 {
+  font-family: 'Ubuntu', sans-serif;
   font-weight: 300; }
 
 .word-break {
@@ -535,6 +538,7 @@ header {
   margin-bottom: 20px; }
 
 header h1 {
+  font-family: 'Ubuntu', sans-serif;
   margin: 2px 0px 12px 0px;
   font-weight: 300; }
 
@@ -610,7 +614,7 @@ pre {
   font-size: 0.9em; }
 
 pre, code {
-  font-family: "Ubuntu", sans-serif !important; }
+  font-family: 'Ubuntu', sans-serif !important; }
 
 /*Syntax Highlight End*/
 /*Gallery*/
@@ -672,6 +676,37 @@ tr:nth-child(even) {
 td, th {
   padding: 10px; }
 
+/*Tables End*/
+/*Countdown*/
+.countdown {
+  font-size: 2em;
+  font-family: 'Ubuntu', sans-serif;
+  color: #d1d1d1;
+  text-shadow: 2px 2px 2px black; }
+
+.countdown p {
+  display: inline; }
+
+.dancing-bear {
+  margin-top: 20px;
+  width: 60%;
+  height: auto; }
+
+@media only screen and (max-width: 767px) {
+  .countdown {
+    font-size: 2.5em; }
+
+  .countdown p {
+    display: block;
+    margin: 0px; }
+
+  .dancing-bear {
+    width: 100%; } }
+.little {
+  font-size: 0.65em;
+  color: #52c1ff; }
+
+/*Countdown End*/
 @media only screen and (max-width: 956px) {
   .gallery img {
     max-width: 140px; } }
@@ -1001,7 +1036,7 @@ div.ps-caption {
   border-bottom: 1px solid #42403f;
   color: #ffffff;
   font-size: 13px;
-  font-family: "Lucida Grande", Helvetica, Arial, Verdana, sans-serif;
+  font-family: "Lucida Grande", Helvetica, Arial,Verdana, sans-serif;
   text-align: center; }
 
 div.ps-caption * {
@@ -1024,7 +1059,7 @@ div.ps-toolbar {
   border-top: 1px solid #42403f;
   color: #ffffff;
   font-size: 13px;
-  font-family: "Lucida Grande", Helvetica, Arial, Verdana, sans-serif;
+  font-family: "Lucida Grande", Helvetica, Arial,Verdana, sans-serif;
   text-align: center;
   height: 44px;
   display: table;

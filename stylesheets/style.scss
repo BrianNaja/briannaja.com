@@ -38,8 +38,8 @@ footer, .sticky-footer {
 /*!Fonts & Body*/ 
 
 body {
-    font-family: 'Ubuntu', sans-serif;
-    font-weight: 100;
+    font-family: 'Helvetica', sans-serif;
+    font-weight: 200;
     font-size: 1.2em;
     color: $alomstwhite;
     background: url("images/dark-noise.png");
@@ -54,11 +54,13 @@ a:hover {
 }
 
 h2 {
+    font-family: 'Ubuntu', sans-serif;
     font-size: 1.8em;
     font-weight: 200;
 }
 
 h2 a {
+    font-family: 'Ubuntu', sans-serif;
     color: $red;
 }
 
@@ -67,6 +69,7 @@ h2 a:hover {
 }
 
 h3, h4, h5, h6 {
+    font-family: 'Ubuntu', sans-serif;
     font-weight: 300;
 }
 
@@ -85,6 +88,7 @@ header {
 }
 
 header h1 {
+    font-family: 'Ubuntu', sans-serif;
     margin: 2px 0px 12px 0px;
     font-weight: 300;
 }
@@ -260,6 +264,51 @@ tr:nth-child(even) {
 td, th {
     padding: 10px;
 }
+
+/*!Tables End*/
+
+/*!Countdown*/
+.countdown {
+  font-size: 2em;
+  font-family: 'Ubuntu', sans-serif;
+  color: $alomstwhite;
+  text-shadow: 2px 2px 2px black
+}
+
+.countdown p {
+  display: inline;
+}
+
+.dancing-bear {
+  margin-top: 20px;
+  width: 60%;
+  height: auto;
+}
+
+@media only screen and (max-width: 767px) {
+
+.countdown {
+  font-size: 2.5em;
+}
+
+  .countdown p {
+  display: block;
+  margin: 0px;
+  }
+  
+  .dancing-bear {
+  width: 100%;
+  }
+  
+}
+
+.little {
+  font-size: 0.65em;
+  color: $blue;
+}
+/*!Countdown End*/
+
+
 
 @media only screen and (max-width: 956px) {
 

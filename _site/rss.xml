@@ -6,9 +6,26 @@
     <atom:link href="http://briannaja/rss.xml" rel="self" type="application/rss+xml" />
     <description>Brian Naja's Blog</description>
     <language>en-us</language>
-    <pubDate>Sun, 26 May 2013 09:28:10 -0400</pubDate>
-    <lastBuildDate>Sun, 26 May 2013 09:28:10 -0400</lastBuildDate>
+    <pubDate>Sat, 15 Jun 2013 09:57:52 -0400</pubDate>
+    <lastBuildDate>Sat, 15 Jun 2013 09:57:52 -0400</lastBuildDate>
  
+    
+    <item>
+      <title>Gary Kovacs - Tracking the trackers</title>
+      <link>http://briannaja.com/video/gary-kovacs-tracking-the-trackers</link>
+      <pubDate>Sun, 09 Jun 2013 00:00:00 -0400</pubDate>
+      <author>Brian Naja</author>
+      <guid>http://functionn.github.com/video/gary-kovacs-tracking-the-trackers</guid>
+      <description>&lt;div class=&quot;video&quot;&gt;
+&lt;iframe src=&quot;http://player.vimeo.com/video/67992191&quot; width=&quot;500&quot; height=&quot;281&quot; frameborder=&quot;0&quot; webkitAllowFullScreen mozallowfullscreen allowFullScreen&gt;&lt;/iframe&gt; 
+&lt;/div&gt;
+
+
+&lt;p&gt;Gary Kovacs is the CEO of &lt;a href=&quot;http://www.mozilla.org/en-US/&quot; title=&quot;Mozilla&quot;&gt;Mozilla Corporation&lt;/a&gt; the people who made Firefox.&lt;/p&gt;
+
+&lt;p&gt;Collusion is an experimental add-on for Firefox and allows you to see all the third parties that are tracking your movements across the Web. It will show, in real time, how that data creates a spider-web of interaction between companies and other trackers.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Boilermaking Photos</title>
@@ -453,7 +470,7 @@ Try the demo &amp;ndash; &lt;a href=&quot;http://briannaja.github.com/Rigging-Ap
       <guid>http://functionn.github.com/sunset-from-mars</guid>
       <description>&lt;p&gt;&lt;img src=&quot;/images/mars/full/sunset-from-mars.jpg&quot; title=&quot;Sunset from Mars&quot; alt=&quot;Sunset from Mars&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;On May 19th, 2005, NASA&amp;rsquo;s Mars Exploration Rover Spirit captured this stunning view as the Sun sank below the rim of Gusev crater on Mars.&lt;/p&gt;
+&lt;p&gt;Test On May 19th, 2005, NASA&amp;rsquo;s Mars Exploration Rover Spirit captured this stunning view as the Sun sank below the rim of Gusev crater on Mars.&lt;/p&gt;
 </description>
     </item>
     

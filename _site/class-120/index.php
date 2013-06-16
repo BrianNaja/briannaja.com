@@ -27,36 +27,33 @@
     </header>
     <div class="wrapper">
 
-        <section class="row">
-        <article class="ten columns centered">
-            <h2>Boilermaking Photos</h2>
+            <section class="row">
+        <article class="eight columns ">
+            <h2>Countdown To Graduation</h2>
             <div class="content">
-				<div class="gallery">
-        <p><a href="/images/boilermaking-photos/full/bm1.jpg"><img src="/images/boilermaking-photos/thumb/bm1.jpg"/></a></p>
-        <p><a href="/images/boilermaking-photos/full/bm2.jpg"><img src="/images/boilermaking-photos/thumb/bm2.jpg"/></a></p>
-        <p><a href="/images/boilermaking-photos/full/bm3.jpg"><img src="/images/boilermaking-photos/thumb/bm3.jpg"/></a></p>
-        <p><a href="/images/boilermaking-photos/full/bm4.jpg"><img src="/images/boilermaking-photos/thumb/bm4.jpg"/></a></p>
-        <p><a href="/images/boilermaking-photos/full/bm5.jpg"><img src="/images/boilermaking-photos/thumb/bm5.jpg"/></a></p>
-        <p><a href="/images/boilermaking-photos/full/bm6.jpg"><img src="/images/boilermaking-photos/thumb/bm6.jpg"/></a></p>
-        <p><a href="/images/boilermaking-photos/full/bm7.jpg"><img src="/images/boilermaking-photos/thumb/bm7.jpg"/></a></p>
-        <p><a href="/images/boilermaking-photos/full/bm8.jpg"><img src="/images/boilermaking-photos/thumb/bm8.jpg"/></a></p>
-        <p><a href="/images/boilermaking-photos/full/bm9.jpg"><img src="/images/boilermaking-photos/thumb/bm9.jpg"/></a></p>
-        <p><a href="/images/boilermaking-photos/full/bm10.jpg"><img src="/images/boilermaking-photos/thumb/bm10.jpg"/></a></p>
-        <p><a href="/images/boilermaking-photos/full/bm11.jpg"><img src="/images/boilermaking-photos/thumb/bm11.jpg"/></a></p>
-        <p><a href="/images/boilermaking-photos/full/bm12.jpg"><img src="/images/boilermaking-photos/thumb/bm12.jpg"/></a></p>
-        <p><a href="/images/boilermaking-photos/full/bm13.jpg"><img src="/images/boilermaking-photos/thumb/bm13.jpg"/></a></p>
-        <p><a href="/images/boilermaking-photos/full/bm14.jpg"><img src="/images/boilermaking-photos/thumb/bm14.jpg"/></a></p>
-        <p><a href="/images/boilermaking-photos/full/bm15.jpg"><img src="/images/boilermaking-photos/thumb/bm15.jpg"/></a></p>
-</div>
+                
+              <?php 
+                
+                date_default_timezone_set('America/New_York');
+                $date = strtotime("August 16, 2013 7:55 AM");
+                $remaining = $date - time();
 
-
-
-
-				<ul class="meta">
-				    <li>Category: <a  href="/category/"> </a></li>
-				    <li><a  href="/video/view-from-the-ISS-at-Night">NASA's Kepler seeks to answer- Is anybody out there? &rarr;</a></li>
-				    <li><a href="/video/gary-kovacs-tracking-the-trackers">&larr; Gary Kovacs - Tracking the trackers</a></li>
-				</ul>
+                $days_remaining = floor($remaining / 86400);
+                $hours_remaining = floor(($remaining % 86400) / 3600);
+                $min_remaining = floor(($remaining % 3600) / 60);
+                $sec_remaining = ($remaining % 60);
+                
+                echo "<div class=\"countdown\">
+                  <p>$days_remaining <span class=\"little\">Days</span></p>  
+                  <p>$hours_remaining <span class=\"little\">Hours</span></p>
+                  <p>$min_remaining <span class=\"little\">Minutes</span></p>
+              </div>"; 
+              
+              ?>	
+				 
+			<img class="dancing-bear" src="dancing-bear.gif" alt="dancing bear">
+			
+				
             </div>
 		<div id="disqus_thread"></div>
     <script type="text/javascript">
@@ -75,9 +72,40 @@
     		
 				
         </article>
+        
+        <aside class="four columns">
+    				    	
+			<h4>Recent Writings From the archives</h4>
+			<ul class="disc">
+				
+				<li><a href="/video/gary-kovacs-tracking-the-trackers">Gary Kovacs - Tracking the trackers</a></li>
+				
+				<li><a href="/boilermaking-photos">Boilermaking Photos</a></li>
+				
+				<li><a href="/video/view-from-the-ISS-at-Night">NASA's Kepler seeks to answer- Is anybody out there?</a></li>
+				
+				<li><a href="/what-is-collective-bargaining">What is Collective Bargining</a></li>
+				
+				<li><a href="/right-to-work-a-closer-look">Right To Work - A Closer Look</a></li>
+				
+				<li><a href="/video/time-lapse-footage-of-the-Earth">Time-lapse footage of the Earth</a></li>
+				
+				<li><a href="/people-ask-to-see-stars">People ask to see stars</a></li>
+				
+				<li><a href="/earth-at-night">Earth at night</a></li>
+				
+				<li><a href="/video/view-from-the-ISS-at-Night">View from the ISS at Night</a></li>
+				
+				<li><a href="/what-is-html">What is HTML</a></li>
+				
+			</ul>
+	    </aside>
+	    
     </section>
     
-    
+    		
+	    
+	    
 
         <div class="sticky-footer"></div>
     </div><!-- end of wrapper -->    
