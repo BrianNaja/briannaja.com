@@ -31,6 +31,85 @@
     	<section class="eight columns">
 		  
 		  <article>
+		      <h2><a href="/what-is-html">What is HTML</a></h2>
+		      <p><time datetime="02 April 2013">02 April 2013</time></p>
+					<p>HyperText Markup Language (HTML) is the main markup language used for creating web pages. A markup language is a combination of words and symbols that give instructions on the semantics of a document.  For example, <code>&lt;em&gt;</code> emphasis,  <code>&lt;ul&gt;</code> an unordered list and a <code>&lt;p&gt;</code> paragraph all have semantic meaning.</p>
+
+<p>HTML began in 1989 by <a href="http://www.w3.org/People/Berners-Lee/">Tim Berners-Lee</a> at CERN, the European Laboratory for Particle Physics in Geneva, Switzerland. Tim had the idea of enabling researchers from remote sites in the world to organize and pool together information. In other words, there could be cross-references from one research paper to another. This would mean that while reading one research paper, you could quickly display part of another paper that holds directly relevant text or diagrams. Tim thought this could be done by using some form of hypertext to link documents together.</p>
+
+<p>Tim&rsquo;s prototype Web browser came out in 1990 on the <a href="http://en.wikipedia.org/wiki/NeXT">NeXT computer</a> . <em>Info.cern.ch</em> was the address of the world&rsquo;s first-ever website and web server, running on a NeXT computer at CERN. The first web page address was <span class= "word-break">http://info.cern.ch/hypertext/WWW/TheProject.html,</span> which centred on information regarding the WWW project. You may find a <a href="http://www.w3.org/History/19921103-hypertext/hypertext/WWW/TheProject.html">copy of the first website</a> on the World Wide Web Consortium website.</p>
+
+<p>In 1994, Tim founded the <a href="http://www.w3.org">World Wide Web Consortium</a> (often referred to as &ldquo;W3C&rdquo;) at MIT in order to create standards for the web to ensure that different websites would all work the same way.</p>
+
+<p>Below is a copy of the HTML that this page is made from.</p>
+
+<div class="highlight"><pre><code class="html">     <span class="cp">&lt;!DOCTYPE html&gt;</span>
+    
+    <span class="nt">&lt;head&gt;</span>
+      <span class="c">&lt;!-- Set the viewport width to device width for mobile --&gt;</span>
+      <span class="nt">&lt;meta</span> <span class="na">name=</span><span class="s">&quot;viewport&quot;</span> <span class="na">content=</span><span class="s">&quot;width=device-width&quot;</span> <span class="nt">/&gt;</span>
+    
+      <span class="nt">&lt;title&gt;</span>Brian Naja<span class="nt">&lt;/title&gt;</span>
+      
+       <span class="nt">&lt;link</span> <span class="na">rel=</span><span class="s">&quot;stylesheet&quot;</span> <span class="na">href=</span><span class="s">&quot;/css/style.css&quot;</span><span class="nt">&gt;</span>
+       <span class="nt">&lt;link</span> <span class="na">href=</span><span class="s">&#39;http://fonts.googleapis.com/css?family=Ubuntu&#39;</span> <span class="na">rel=</span><span class="s">&#39;stylesheet&#39;</span> <span class="na">type=</span><span class="s">&#39;text/css&#39;</span><span class="nt">&gt;</span>
+       <span class="nt">&lt;link</span> <span class="na">href=</span><span class="s">&#39;http://fonts.googleapis.com/css?family=Exo:600&#39;</span> <span class="na">rel=</span><span class="s">&#39;stylesheet&#39;</span> <span class="na">type=</span><span class="s">&#39;text/css&#39;</span><span class="nt">&gt;</span>
+    
+      <span class="c">&lt;!-- IE Fix for HTML5 Tags --&gt;</span>
+      <span class="c">&lt;!--[if lt IE 9]&gt;</span>
+<span class="c">        &lt;script src=&quot;http://html5shiv.googlecode.com/svn/trunk/html5.js&quot;&gt;&lt;/script&gt;</span>
+<span class="c">      &lt;![endif]--&gt;</span>
+    <span class="nt">&lt;/head&gt;</span>
+    
+    <span class="nt">&lt;body&gt;</span>
+        <span class="nt">&lt;header&gt;</span>
+            <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">&quot;row&quot;</span><span class="nt">&gt;</span>
+                <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">&quot;twelve columns&quot;</span><span class="nt">&gt;</span>
+                    <span class="nt">&lt;h1&gt;&lt;a</span> <span class="na">href=</span><span class="s">&quot;/&quot;</span><span class="nt">&gt;</span>Brian Naja<span class="nt">&lt;/a&gt;&lt;/h1&gt;</span>
+                <span class="nt">&lt;/div&gt;</span>
+            <span class="nt">&lt;/div&gt;</span>
+        <span class="nt">&lt;/header&gt;</span>
+        <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">&quot;wrapper&quot;</span><span class="nt">&gt;</span>
+    
+            <span class="nt">&lt;section</span> <span class="na">class=</span><span class="s">&quot;row&quot;</span><span class="nt">&gt;</span>
+            <span class="nt">&lt;article</span> <span class="na">class=</span><span class="s">&quot;ten columns centered&quot;</span><span class="nt">&gt;</span>
+                <span class="nt">&lt;hgroup&gt;</span>
+                    <span class="nt">&lt;h2&gt;</span>What is HTML<span class="nt">&lt;/h2&gt;</span>
+                <span class="nt">&lt;/hgroup&gt;</span>
+                    <span class="c">&lt;!-- &lt;div class=&quot;content&quot;&gt; --&gt;</span>    
+                        <span class="nt">&lt;p&gt;</span>HyperText Markup Language (HTML) is the main markup language used for creating web pages. A markup language is a combination of words and symbols that give instructions on the semantics of a document.  For example, <span class="nt">&lt;code&gt;&lt;em&gt;&lt;/code&gt;</span> emphasis,  <span class="nt">&lt;code&gt;&lt;ul&gt;&lt;/code&gt;</span> an unordered list and a <span class="nt">&lt;code&gt;&lt;p&gt;&lt;/code&gt;</span> paragraph all have semantic meaning.<span class="nt">&lt;/p&gt;</span>
+
+                        <span class="nt">&lt;p&gt;</span>HTML began in 1989 by <span class="nt">&lt;a</span> <span class="na">href=</span><span class="s">&quot;http://www.w3.org/People/Berners-Lee/&quot;</span><span class="nt">&gt;</span>Tim Berners-Lee<span class="nt">&lt;/a&gt;</span> at CERN, the European Laboratory for Particle Physics in Geneva, Switzerland. Tim had the idea of enabling researchers from remote sites in the world to organize and pool together information. In other words, there could be cross-references from one research paper to another. This would mean that while reading one research paper, you could quickly display part of another paper that holds directly relevant text or diagrams. Tim thought this could be done by using some form of hypertext to link documents together.<span class="nt">&lt;/p&gt;</span>
+
+                        <span class="nt">&lt;p&gt;</span>Tim&#39;s prototype Web browser came out in 1990 on the <span class="nt">&lt;a</span> <span class="na">href=</span><span class="s">&quot;http://en.wikipedia.org/wiki/NeXT&quot;</span><span class="nt">&gt;</span>NeXT computer<span class="nt">&lt;/a&gt;</span> . <span class="nt">&lt;em&gt;</span>Info.cern.ch<span class="nt">&lt;/em&gt;</span> was the address of the world&#39;s first-ever website and web server, running on a NeXT computer at CERN. The first web page address was <span class="nt">&lt;em&gt;</span>http://info.cern.ch/hypertext/WWW/TheProject.html<span class="nt">&lt;/em&gt;</span>, which centred on information regarding the WWW project. You may find a <span class="nt">&lt;a</span> <span class="na">href=</span><span class="s">&quot;http://www.w3.org/History/19921103-hypertext/hypertext/WWW/TheProject.html&quot;</span><span class="nt">&gt;</span>copy of the first website<span class="nt">&lt;/a&gt;</span> on the World Wide Web Consortium website.<span class="nt">&lt;/p&gt;</span>
+
+                        <span class="nt">&lt;p&gt;</span>In 1994, Tim founded the <span class="nt">&lt;a</span> <span class="na">href=</span><span class="s">&quot;http://www.w3.org&quot;</span><span class="nt">&gt;</span>World Wide Web Consortium<span class="nt">&lt;/a&gt;</span> (often referred to as &quot;W3C&quot;) at MIT in order to create standards for the web to ensure that different websites would all work the same way.<span class="nt">&lt;/p&gt;</span>
+
+                        <span class="nt">&lt;p&gt;</span>Below is a copy of the HTML that this page is made from.<span class="nt">&lt;/p&gt;</span>
+            <span class="nt">&lt;/article&gt;</span>
+        <span class="nt">&lt;/section&gt;</span>
+        <span class="nt">&lt;/div&gt;</span>
+        <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">&quot;sticky-footer&quot;</span><span class="nt">&gt;&lt;/div&gt;</span>
+            
+        <span class="nt">&lt;footer&gt;</span>
+            <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">&quot;row&quot;</span><span class="nt">&gt;</span>
+                <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">&quot;twelve columns&quot;</span><span class="nt">&gt;</span>
+                    <span class="nt">&lt;p&gt;</span>powered by <span class="nt">&lt;a</span> <span class="na">href=</span><span class="s">&quot;http://jekyllrb.com&quot;</span><span class="nt">&gt;</span>Jekyll<span class="nt">&lt;/a&gt;</span>
+                    <span class="nt">&lt;a</span> <span class="na">href=</span><span class="s">&quot;#&quot;</span> <span class="na">title=</span><span class="s">&quot;To the top of this page&quot;</span> <span class="na">class=</span><span class="s">&quot;back-to-top&quot;</span><span class="nt">&gt;</span><span class="ni">&amp;uarr;</span> Back To Top<span class="nt">&lt;/a&gt;&lt;/p&gt;</span>
+                <span class="nt">&lt;/div&gt;</span>
+            <span class="nt">&lt;/div&gt;</span>
+        <span class="nt">&lt;/footer&gt;</span>
+    <span class="nt">&lt;/body&gt;</span>
+    <span class="nt">&lt;/html&gt;</span>
+</code></pre></div>
+
+
+					<!-- <p>HyperText Markup Language (HTML) is the main markup language used for creating web pages. A markup language is a combination of words and symbols that give instructions on the semantics of a document. For example, <code>&lt;em&gt;</code> emphasis, <code>&lt;ul&gt;</code> an unordered list and a <code>&lt;p&gt;</code> paragraph all have semantic meaning.</p> <p>HTML began in 1989 by <a href="http://www.w3.org/People/Berners-Lee/">Tim Berners-Lee</a> at CERN, the European Laboratory for Particle Physics in Geneva, Switzerland. Tim had the idea of enabling researchers from remote sites in the world to organize and pool together information. In other words, there could be cross-references from one research paper to another. This would mean that while reading one research paper, you could quickly display part of another paper that holds directly relevant text or diagrams. Tim thought this could be done by using some form of hypertext to link documents together.</p> <p>Tim&rsquo;s prototype Web browser came out in 1990 on the... 
+					<br>
+					<p><a href="/what-is-html">Read More &rarr;</a></p>-->
+		  </article>
+		  
+		  <article>
 		      <h2><a href="/video/we-are-the-explorers">We are the Explorers</a></h2>
 		      <p><time datetime="30 March 2013">30 March 2013</time></p>
 					<div class="video">
@@ -40,8 +119,15 @@
 
 <p>In NASA&rsquo;s new video, &ldquo;We Are the Explorers,&rdquo; we take a look at that tradition of reaching for things just beyond our grasp and how it is helping us lay the foundation for our greatest journeys ahead.</p>
 
+					<!-- <div class="video">
+<iframe src="http://player.vimeo.com/video/63009402?title=0&amp;byline=0&amp;portrait=0&amp;color=af3528" width="500" height="281" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+</div>
+
+
+<p>In NASA&rsquo;s new video, &ldquo;We Are the Explorers,&rdquo; we take a look at that tradition of reaching for things just beyond our grasp and how it is helping us lay the foundation for our greatest journeys ahead.</p>
+ 
 					<br>
-					<p><a href="/video/we-are-the-explorers">Read More &rarr;</a></p>
+					<p><a href="/video/we-are-the-explorers">Read More &rarr;</a></p>-->
 		  </article>
 		  
 		  <article>
@@ -52,8 +138,13 @@
 </div>
 
 
+					<!-- <div class="video">
+<iframe src="http://player.vimeo.com/video/62656301?title=0&amp;byline=0&amp;portrait=0&amp;color=af3528" width="500" height="281" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe> 
+</div>
+
+ 
 					<br>
-					<p><a href="/video/ira-glass-on-storytelling">Read More &rarr;</a></p>
+					<p><a href="/video/ira-glass-on-storytelling">Read More &rarr;</a></p>-->
 		  </article>
 		  
 		  <article>
@@ -64,8 +155,13 @@
 </div>
 
 
+					<!-- <div class="video">
+<iframe src="http://player.vimeo.com/video/47840543" width="500" height="281" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+</div>
+
+ 
 					<br>
-					<p><a href="/what-boilermakers-do/">Read More &rarr;</a></p>
+					<p><a href="/what-boilermakers-do/">Read More &rarr;</a></p>-->
 		  </article>
 		  
 		  <article>
@@ -82,16 +178,19 @@
 
 
 
+					<!-- <div class="gallery">
+        <p><a href="/images/upending-cracker/full/IMG_16491.jpg"><img src="/images/upending-cracker/thumb/IMG_16491.jpg"/></a></p>
+        <p><a href="/images/upending-cracker/full/IMG_1670.jpg"><img src="/images/upending-cracker/thumb/IMG_1670.jpg"/></a></p>
+        <p><a href="/images/upending-cracker/full/IMG_1687.jpg"><img src="/images/upending-cracker/thumb/IMG_1687.jpg"/></a></p>
+        <p><a href="/images/upending-cracker/full/IMG_1621.jpg"><img src="/images/upending-cracker/thumb/IMG_1621.jpg"/></a></p>
+        <p><a href="/images/upending-cracker/full/IMG_1708.jpg"><img src="/images/upending-cracker/thumb/IMG_1708.jpg"/></a></p>
+</div>
+
+
+
+ 
 					<br>
-					<p><a href="/upending-a-cracker">Read More &rarr;</a></p>
-		  </article>
-		  
-		  <article>
-		      <h2><a href="/my-quotes-collection/">Quotes Collection</a></h2>
-		      <p><time datetime="02 March 2013">02 March 2013</time></p>
-					<ul> <li><p>It&rsquo;s so much easier to talk about how something sucks than to talk about how it could be awesome. Negativity is for the lazy.</p></li> <li><p>&ldquo;I can never stand still. I must explore and experiment. I am never satisfied with my work.&rdquo; &ndash; Walt Disney</p></li> <li><p>Better to fail at doing something that excites you than succeed doing something that bores you.</p></li> <li><p>&ldquo;A genuine leader is not a searcher for consensus but a molder of consensus.&rdquo; &ndash; Martin Luther King, Jr</p></li> <li><p>If you don&rsquo;t like something, change it. If you can&rsquo;t change it, change your attitude. Don&rsquo;t complain</p></li> <li><p>&ldquo;No question is stupid.&rdquo; &ndash; Herm Edwards</p></li> <li><p>&ldquo;We can&rsquo;t solve problems with the same kind of thinking we used when we created them&rdquo; &ndash; Albert Einstein</p></li> <li><p>Sometimes you should just throw the rule book out the window and make things happen!!!</p></li> <li><p>I cant understand why people are frightened of new ideas. Im frightened...
-					<br>
-					<p><a href="/my-quotes-collection/">Read More &rarr;</a></p>
+					<p><a href="/upending-a-cracker">Read More &rarr;</a></p>-->
 		  </article>
 		  
 		  <div class="pagination">
@@ -118,6 +217,8 @@
 			<h4>Recent Writings From the archives</h4>
 			<ul class="disc">
 				
+				<li><a href="/right-to-work-a-closer-look">Right To Work - A Closer Look</a></li>
+				
 				<li><a href="/video/time-lapse-footage-of-the-Earth">Time-lapse footage of the Earth</a></li>
 				
 				<li><a href="/people-ask-to-see-stars">People ask to see stars</a></li>
@@ -135,8 +236,6 @@
 				<li><a href="/what-boilermakers-do/">What Boilermakers Do</a></li>
 				
 				<li><a href="/upending-a-cracker">Upending a Cracker</a></li>
-				
-				<li><a href="/my-quotes-collection/">Quotes Collection</a></li>
 				
 			</ul>
 	    </aside>

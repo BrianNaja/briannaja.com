@@ -6,9 +6,113 @@
     <atom:link href="http://briannaja/rss.xml" rel="self" type="application/rss+xml" />
     <description>Brian Naja's Blog</description>
     <language>en-us</language>
-    <pubDate>Sat, 15 Jun 2013 09:57:52 -0400</pubDate>
-    <lastBuildDate>Sat, 15 Jun 2013 09:57:52 -0400</lastBuildDate>
+    <pubDate>Mon, 17 Jun 2013 18:55:50 -0400</pubDate>
+    <lastBuildDate>Mon, 17 Jun 2013 18:55:50 -0400</lastBuildDate>
  
+    
+    <item>
+      <title>Markdown Cheat Sheet</title>
+      <link>http://briannaja.com/markdown-cheat-sheet</link>
+      <pubDate>Mon, 17 Jun 2013 00:00:00 -0400</pubDate>
+      <author>Brian Naja</author>
+      <guid>http://functionn.github.com/markdown-cheat-sheet</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Headers&lt;/strong&gt;&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;# Header 1
+## Header 2
+### Header 3
+#### Header 4
+##### Header 5
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;&lt;strong&gt;Header with a link.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;[Link back to H2](#id-goes-here)
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;&lt;strong&gt;Paragraph&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry&amp;rsquo;s standard dummy text ever since the 1500s.&lt;/p&gt;
+
+&lt;p&gt;To create a line break, end a line in a paragraph with two or more spaces.&lt;br/&gt;
+I am a sentence with&lt;br/&gt;
+a line break.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Link&lt;/strong&gt;&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;[Google](http://google.com)
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;&lt;strong&gt;Inline markup&lt;/strong&gt;&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;_italics_
+**bold**
+`code()`
+Note that underscores in words are ignored in Markdown.
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;&lt;strong&gt;Images&lt;/strong&gt;&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;![picture alt](/images/photo.jpeg &quot;Title is optional&quot;)   
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;&lt;strong&gt;Blockquotes&lt;/strong&gt;&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;&amp;gt; Blockquotes are like quoted text in email replies
+&amp;gt;&amp;gt; And, they can be nested
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;&lt;strong&gt;Lists&lt;/strong&gt;&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;* Bullet lists are easy too
+- Another one
++ Another one
+
+1. A numbered list
+2. Which is numbered
+3. With periods and a space
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;&lt;strong&gt;Code&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Indent with four spaces to creat a code block.&lt;br/&gt;
+This is a normal paragraph.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;This is a code block 
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;&lt;strong&gt;Horizontal rules&lt;/strong&gt;&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;* * * *
+****
+--------------------------
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;&lt;strong&gt;Markdown plus tables&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Outer pipes on tables are optional&lt;br/&gt;
+Colon used for alignment (right versus left)&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;| Header | Header | Right  |
+| ------ | ------ | -----: |
+|  Cell  |  Cell  |   $10  |
+|  Cell  |  Cell  |   $20  |
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;&lt;strong&gt;Markdown plus definition lists&lt;/strong&gt;&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;Term
+: Definition
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Multiple definitions and terms are possible&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;Apple
+: Pomaceous fruit of plants of the genus Malus.
+: An american computer company.  
+&lt;/code&gt;&lt;/pre&gt;
+</description>
+    </item>
     
     <item>
       <title>Gary Kovacs - Tracking the trackers</title>

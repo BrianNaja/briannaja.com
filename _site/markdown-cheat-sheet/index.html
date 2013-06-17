@@ -27,33 +27,111 @@
     </header>
     <div class="wrapper">
 
-            <section class="row">
-        <article class="eight columns ">
-            <h2>Countdown To Graduation</h2>
+        <section class="row">
+        <article class="ten columns centered">
+            <h2>Markdown Cheat Sheet</h2>
             <div class="content">
-                
-              <?php 
-                
-                date_default_timezone_set('America/New_York');
-                $date = strtotime("August 16, 2013 7:55 AM");
-                $remaining = $date - time();
+				<p><strong>Headers</strong></p>
 
-                $days_remaining = floor($remaining / 86400);
-                $hours_remaining = floor(($remaining % 86400) / 3600);
-                $min_remaining = floor(($remaining % 3600) / 60);
-                $sec_remaining = ($remaining % 60);
-                
-                echo "<div class=\"countdown\">
-                  <p>$days_remaining <span class=\"little\">Days</span></p>  
-                  <p>$hours_remaining <span class=\"little\">Hours</span></p>
-                  <p>$min_remaining <span class=\"little\">Minutes</span></p>
-              </div>"; 
-              
-              ?>	
-				 
-			<img class="dancing-bear" src="dancing-bear.gif" alt="dancing bear">
-			
-				
+<pre><code># Header 1
+## Header 2
+### Header 3
+#### Header 4
+##### Header 5
+</code></pre>
+
+<p><strong>Header with a link.</strong></p>
+
+<pre><code>[Link back to H2](#id-goes-here)
+</code></pre>
+
+<p><strong>Paragraph</strong></p>
+
+<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry&rsquo;s standard dummy text ever since the 1500s.</p>
+
+<p>To create a line break, end a line in a paragraph with two or more spaces.<br/>
+I am a sentence with<br/>
+a line break.</p>
+
+<p><strong>Link</strong></p>
+
+<pre><code>[Google](http://google.com)
+</code></pre>
+
+<p><strong>Inline markup</strong></p>
+
+<pre><code>_italics_
+**bold**
+`code()`
+Note that underscores in words are ignored in Markdown.
+</code></pre>
+
+<p><strong>Images</strong></p>
+
+<pre><code>![picture alt](/images/photo.jpeg "Title is optional")   
+</code></pre>
+
+<p><strong>Blockquotes</strong></p>
+
+<pre><code>&gt; Blockquotes are like quoted text in email replies
+&gt;&gt; And, they can be nested
+</code></pre>
+
+<p><strong>Lists</strong></p>
+
+<pre><code>* Bullet lists are easy too
+- Another one
++ Another one
+
+1. A numbered list
+2. Which is numbered
+3. With periods and a space
+</code></pre>
+
+<p><strong>Code</strong></p>
+
+<p>Indent with four spaces to creat a code block.<br/>
+This is a normal paragraph.</p>
+
+<pre><code>This is a code block 
+</code></pre>
+
+<p><strong>Horizontal rules</strong></p>
+
+<pre><code>* * * *
+****
+--------------------------
+</code></pre>
+
+<p><strong>Markdown plus tables</strong></p>
+
+<p>Outer pipes on tables are optional<br/>
+Colon used for alignment (right versus left)</p>
+
+<pre><code>| Header | Header | Right  |
+| ------ | ------ | -----: |
+|  Cell  |  Cell  |   $10  |
+|  Cell  |  Cell  |   $20  |
+</code></pre>
+
+<p><strong>Markdown plus definition lists</strong></p>
+
+<pre><code>Term
+: Definition
+</code></pre>
+
+<p>Multiple definitions and terms are possible</p>
+
+<pre><code>Apple
+: Pomaceous fruit of plants of the genus Malus.
+: An american computer company.  
+</code></pre>
+
+				<ul class="meta">
+				    <li>Category: <a  href="/category/"> </a></li>
+				    <li><a  href="/video/gary-kovacs-tracking-the-trackers">Gary Kovacs - Tracking the trackers &rarr;</a></li>
+				    <li><a href="">&larr; </a></li>
+				</ul>
             </div>
 		<div id="disqus_thread"></div>
     <script type="text/javascript">
@@ -72,40 +150,9 @@
     		
 				
         </article>
-        
-        <aside class="four columns">
-    				    	
-			<h4>Recent Writings From the archives</h4>
-			<ul class="disc">
-				
-				<li><a href="/markdown-cheat-sheet">Markdown Cheat Sheet</a></li>
-				
-				<li><a href="/video/gary-kovacs-tracking-the-trackers">Gary Kovacs - Tracking the trackers</a></li>
-				
-				<li><a href="/boilermaking-photos">Boilermaking Photos</a></li>
-				
-				<li><a href="/video/view-from-the-ISS-at-Night">NASA's Kepler seeks to answer- Is anybody out there?</a></li>
-				
-				<li><a href="/what-is-collective-bargaining">What is Collective Bargining</a></li>
-				
-				<li><a href="/right-to-work-a-closer-look">Right To Work - A Closer Look</a></li>
-				
-				<li><a href="/video/time-lapse-footage-of-the-Earth">Time-lapse footage of the Earth</a></li>
-				
-				<li><a href="/people-ask-to-see-stars">People ask to see stars</a></li>
-				
-				<li><a href="/earth-at-night">Earth at night</a></li>
-				
-				<li><a href="/video/view-from-the-ISS-at-Night">View from the ISS at Night</a></li>
-				
-			</ul>
-	    </aside>
-	    
     </section>
     
-    		
-	    
-	    
+    
 
         <div class="sticky-footer"></div>
     </div><!-- end of wrapper -->    
