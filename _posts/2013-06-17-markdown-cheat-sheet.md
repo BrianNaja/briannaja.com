@@ -2,6 +2,21 @@
 title: Markdown Cheat Sheet
 layout: post
 ---
+###A little about Markdown.  
+
+Markdown was created by [John Gruber](http://daringfireball.net) and Aaron Swartz. It is a simplified human readable form of markup that outputs HTML for posting on the web or rich text for sending emails.
+
+Markdown documents are cross-platform by nature, so you can edit them in any text-capable app on any operating system. Howerver, there are apps specifically designed for writing in Markdown.
+
+<div class="video">
+<iframe src="http://player.vimeo.com/video/55297514?byline=0&amp;portrait=0" width="500" height="281" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe> 
+</div>
+<p><a href="http://vimeo.com/55297514">Why Markdown Matters</a> from <a href="http://vimeo.com/mathewmitchell">Mathew Mitchell</a> on <a href="http://vimeo.com">Vimeo</a>.</p>
+
+
+---
+
+### The Markdown Syntax
 
 **Headers**
 
@@ -10,6 +25,7 @@ layout: post
     ### Header 3
 	#### Header 4
 	##### Header 5
+	###### Header 6
 
 **Header with a link.**   
 

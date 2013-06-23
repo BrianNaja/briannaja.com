@@ -6,8 +6,8 @@
     <atom:link href="http://briannaja/rss.xml" rel="self" type="application/rss+xml" />
     <description>Brian Naja's Blog</description>
     <language>en-us</language>
-    <pubDate>Mon, 17 Jun 2013 18:55:50 -0400</pubDate>
-    <lastBuildDate>Mon, 17 Jun 2013 18:55:50 -0400</lastBuildDate>
+    <pubDate>Sun, 23 Jun 2013 16:00:48 -0400</pubDate>
+    <lastBuildDate>Sun, 23 Jun 2013 16:00:48 -0400</lastBuildDate>
  
     
     <item>
@@ -16,13 +16,32 @@
       <pubDate>Mon, 17 Jun 2013 00:00:00 -0400</pubDate>
       <author>Brian Naja</author>
       <guid>http://functionn.github.com/markdown-cheat-sheet</guid>
-      <description>&lt;p&gt;&lt;strong&gt;Headers&lt;/strong&gt;&lt;/p&gt;
+      <description>&lt;h3&gt;A little about Markdown.&lt;/h3&gt;
+
+&lt;p&gt;Markdown was created by &lt;a href=&quot;http://daringfireball.net&quot;&gt;John Gruber&lt;/a&gt; and Aaron Swartz. It is a simplified human readable form of markup that outputs HTML for posting on the web or rich text for sending emails.&lt;/p&gt;
+
+&lt;p&gt;Markdown documents are cross-platform by nature, so you can edit them in any text-capable app on any operating system. Howerver, there are apps specifically designed for writing in Markdown.&lt;/p&gt;
+
+&lt;div class=&quot;video&quot;&gt;
+&lt;iframe src=&quot;http://player.vimeo.com/video/55297514?byline=0&amp;amp;portrait=0&quot; width=&quot;500&quot; height=&quot;281&quot; frameborder=&quot;0&quot; webkitAllowFullScreen mozallowfullscreen allowFullScreen&gt;&lt;/iframe&gt; 
+&lt;/div&gt;
+
+
+&lt;p&gt;&lt;a href=&quot;http://vimeo.com/55297514&quot;&gt;Why Markdown Matters&lt;/a&gt; from &lt;a href=&quot;http://vimeo.com/mathewmitchell&quot;&gt;Mathew Mitchell&lt;/a&gt; on &lt;a href=&quot;http://vimeo.com&quot;&gt;Vimeo&lt;/a&gt;.&lt;/p&gt;
+
+
+&lt;hr /&gt;
+
+&lt;h3&gt;The Markdown Syntax&lt;/h3&gt;
+
+&lt;p&gt;&lt;strong&gt;Headers&lt;/strong&gt;&lt;/p&gt;
 
 &lt;pre&gt;&lt;code&gt;# Header 1
 ## Header 2
 ### Header 3
 #### Header 4
 ##### Header 5
+###### Header 6
 &lt;/code&gt;&lt;/pre&gt;
 
 &lt;p&gt;&lt;strong&gt;Header with a link.&lt;/strong&gt;&lt;/p&gt;
@@ -197,7 +216,7 @@ Colon used for alignment (right versus left)&lt;/p&gt;
 &lt;li&gt;&lt;p&gt;Right-to-work laws cripple unions by saddling them with non-members who have no incentive to pay, but still enjoy the rights won by union efforts.&lt;/p&gt;&lt;/li&gt;
 &lt;li&gt;&lt;p&gt;Right-to-work laws have no impact on boosting economic growth: research shows that there is no relationship between the right-to-work laws and state unemployment rates, state per capita income, or state job growth.&lt;/p&gt;&lt;/li&gt;
 &lt;li&gt;&lt;p&gt;Right-to-work laws have no significant impact on an attracting employers to a particular state. Surveys of employers show that &amp;ldquo;right to work&amp;rdquo; is a minor or non-existent factor in location decisions and that higher-wage, hi-tech firms in particular generally prefer free-bargaining states.&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;Right-to-work laws lower wages &amp;ndash; for both union and nonunion workers alike &amp;ndash; by an average of $1,500 per year after accounting for the cost of living in each state.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Right-to-work laws lower wages - for both union and nonunion workers alike - by an average of $1,500 per year after accounting for the cost of living in each state.&lt;/p&gt;&lt;/li&gt;
 &lt;li&gt;&lt;p&gt;Right-to-work laws also decrease the likelihood that employees get either health insurance or pensions through their jobs, for both union and nonunion workers.&lt;/p&gt;&lt;/li&gt;
 &lt;li&gt;&lt;p&gt;By cutting wages, right-to-work laws threaten to undermine job growth by reducing the discretionary income people have to spend in the local retail, real estate, construction, and service industries. Every $1 million in wage cuts translates into an additional six jobs lost in the economy.&lt;/p&gt;&lt;/li&gt;
 &lt;/ul&gt;
@@ -416,12 +435,12 @@ Colon used for alignment (right versus left)&lt;/p&gt;
       <guid>http://functionn.github.com/quotes-collection</guid>
       <description>&lt;ul&gt;
 &lt;li&gt;&lt;p&gt;It&amp;rsquo;s so much easier to talk about how something sucks than to talk about how it could be awesome. Negativity is for the lazy.&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;&amp;ldquo;I can never stand still. I must explore and experiment. I am never satisfied with my work.&amp;rdquo; &amp;ndash; Walt Disney&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&amp;ldquo;I can never stand still. I must explore and experiment. I am never satisfied with my work.&amp;rdquo; - Walt Disney&lt;/p&gt;&lt;/li&gt;
 &lt;li&gt;&lt;p&gt;Better to fail at doing something that excites you than succeed doing something that bores you.&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;&amp;ldquo;A genuine leader is not a searcher for consensus but a molder of consensus.&amp;rdquo; &amp;ndash; Martin Luther King, Jr&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&amp;ldquo;A genuine leader is not a searcher for consensus but a molder of consensus.&amp;rdquo; - Martin Luther King, Jr&lt;/p&gt;&lt;/li&gt;
 &lt;li&gt;&lt;p&gt;If you don&amp;rsquo;t like something, change it. If you can&amp;rsquo;t change it, change your attitude. Don&amp;rsquo;t complain&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;&amp;ldquo;No question is stupid.&amp;rdquo; &amp;ndash; Herm Edwards&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;&amp;ldquo;We can&amp;rsquo;t solve problems with the same kind of thinking we used when we created them&amp;rdquo; &amp;ndash; Albert Einstein&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&amp;ldquo;No question is stupid.&amp;rdquo; - Herm Edwards&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&amp;ldquo;We can&amp;rsquo;t solve problems with the same kind of thinking we used when we created them&amp;rdquo; - Albert Einstein&lt;/p&gt;&lt;/li&gt;
 &lt;li&gt;&lt;p&gt;Sometimes you should just throw the rule book out the window and make things happen!!!&lt;/p&gt;&lt;/li&gt;
 &lt;li&gt;&lt;p&gt;I cant understand why people are frightened of new ideas. Im frightened of the old ones.&lt;/p&gt;&lt;/li&gt;
 &lt;li&gt;&lt;p&gt;The true measure of a person is how they treat someone who can do them absolutely no good.&lt;/p&gt;&lt;/li&gt;
@@ -434,14 +453,14 @@ Colon used for alignment (right versus left)&lt;/p&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;li&gt;&lt;p&gt;Coworkers fabricate to get ahead, scammers fabricate to get your money, enemies fabricate to spread tales about one another, and storytellers can fabricate to push an agenda.&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;Bad things happen when good men and woman do nothing. &amp;ndash; your subconscious&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Bad things happen when good men and woman do nothing. - your subconscious&lt;/p&gt;&lt;/li&gt;
 &lt;li&gt;&lt;p&gt;Life is full of highs and lows. Stay humble. Drive persistently. Never ever give up.&lt;/p&gt;&lt;/li&gt;
 &lt;li&gt;&lt;p&gt;How will you measure your life?&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;The boss inspires fear; the leader inspires enthusiasm. The Builder is inspired &amp;ndash; by changing the world.&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;Do one thing every single day that scares you &amp;ndash; you&amp;rsquo;ll be amazed at the progress you otherwise never would&amp;rsquo;ve&amp;hellip;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;The boss inspires fear; the leader inspires enthusiasm. The Builder is inspired - by changing the world.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Do one thing every single day that scares you - you&amp;rsquo;ll be amazed at the progress you otherwise never would&amp;rsquo;ve&amp;hellip;&lt;/p&gt;&lt;/li&gt;
 &lt;li&gt;&lt;p&gt;If you tell someone the truth about their weaknesses, they will believe you when you tell them about their strengths.&lt;/p&gt;&lt;/li&gt;
 &lt;li&gt;&lt;p&gt;The best thing to hold onto in life is each other.&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;If you&amp;rsquo;re not growing &amp;ndash; you&amp;rsquo;re dying&amp;hellip;and if you&amp;rsquo;re dying, you&amp;rsquo;re a value extractor &amp;ndash; not a value creator.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;If you&amp;rsquo;re not growing - you&amp;rsquo;re dying&amp;hellip;and if you&amp;rsquo;re dying, you&amp;rsquo;re a value extractor - not a value creator.&lt;/p&gt;&lt;/li&gt;
 &lt;li&gt;&lt;p&gt;Learning is the essential skill of humans and our true purpose.&lt;/p&gt;&lt;/li&gt;
 &lt;li&gt;&lt;p&gt;&amp;ldquo;If you don&amp;rsquo;t start somewhere you&amp;rsquo;ll never get anywhere.&amp;rdquo;&lt;/p&gt;&lt;/li&gt;
 &lt;li&gt;&lt;p&gt;Ability is what you&amp;rsquo;re capable of doing. Motivation determines what you do. Attitude determines how well you do it.&quot;&lt;/p&gt;&lt;/li&gt;
@@ -449,7 +468,7 @@ Colon used for alignment (right versus left)&lt;/p&gt;
 &lt;li&gt;&lt;p&gt;&amp;ldquo;Success comes in many forms including: fail often, fail fast, fail cheap.&amp;rdquo;&lt;/p&gt;&lt;/li&gt;
 &lt;li&gt;&lt;p&gt;&amp;ldquo;A gossip talks to u about others; a bore talks to u about himself; a brilliant conversationalist talks to u about u&amp;rdquo;&lt;/p&gt;&lt;/li&gt;
 &lt;li&gt;&lt;p&gt;&amp;ldquo;Success is achieved by development of our strengths not by elimination of our weakness.&amp;rdquo;&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;&amp;ldquo;Times and conditions change so rapidly that we must keep our aim constantly focused on the future&amp;rdquo; &amp;ndash; Walt Disney&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&amp;ldquo;Times and conditions change so rapidly that we must keep our aim constantly focused on the future&amp;rdquo; - Walt Disney&lt;/p&gt;&lt;/li&gt;
 &lt;li&gt;&lt;p&gt;&amp;ldquo;Change before you have to.&amp;rdquo;&lt;/p&gt;&lt;/li&gt;
 &lt;li&gt;&lt;p&gt;&amp;ldquo;Life is what you make it. Always has been, always will be.&amp;rdquo;&lt;/p&gt;&lt;/li&gt;
 &lt;li&gt;&lt;p&gt;&amp;ldquo;The story of life is quicker than the wink of an eye, the story of love is hello and goodbye&amp;hellip;until we meet again&amp;rdquo;&lt;/p&gt;&lt;/li&gt;
@@ -457,10 +476,10 @@ Colon used for alignment (right versus left)&lt;/p&gt;
 &lt;li&gt;&lt;p&gt;You are what you envision. Change your lens, stay focused and crush it like you&amp;rsquo;re playing whack-a-mole!&lt;/p&gt;&lt;/li&gt;
 &lt;li&gt;&lt;p&gt;Never doubt that a small group of thoughtful, committed citizens can change the world. Indeed, It is the only thing that ever has.&lt;/p&gt;&lt;/li&gt;
 &lt;li&gt;&lt;p&gt;&amp;ldquo;Your job: work for good of company, not any individual. If you need to piss someone off to do that, then do it and enjoy it.&amp;rdquo;&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;It is not easy to make hard decisions. It is meant to be that way &amp;ndash; we grow from them.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;It is not easy to make hard decisions. It is meant to be that way - we grow from them.&lt;/p&gt;&lt;/li&gt;
 &lt;li&gt;&lt;p&gt;Having a passion that might kill u is better than having no passion at all.. Life is too short to not live.&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;&amp;ldquo;The right to organize and negotiate a fair pay for hard work should be the right of every American.&amp;rdquo; &amp;ndash; President Obama&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;&amp;ldquo;Success is going from failure to failure without a loss of enthusiasm.&amp;rdquo; &amp;ndash; Winston Churchill&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&amp;ldquo;The right to organize and negotiate a fair pay for hard work should be the right of every American.&amp;rdquo; - President Obama&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&amp;ldquo;Success is going from failure to failure without a loss of enthusiasm.&amp;rdquo; - Winston Churchill&lt;/p&gt;&lt;/li&gt;
 &lt;li&gt;&lt;p&gt;&amp;ldquo;Hope is not a strategy. Luck is not a factor. Fear is not an option.&amp;rdquo;&lt;/p&gt;&lt;/li&gt;
 &lt;li&gt;&lt;p&gt;Learning is the essential skill of humans and our true purpose.&lt;/p&gt;&lt;/li&gt;
 &lt;li&gt;&lt;p&gt;Today is proof that change is possible, that big dreams matter, and that people power lives strong.&lt;/p&gt;&lt;/li&gt;
@@ -470,36 +489,36 @@ Colon used for alignment (right versus left)&lt;/p&gt;
 &lt;li&gt;&lt;p&gt;Never doubt that a small group of thoughtful, committed citizens can change the world. It&amp;rsquo;s the only thing that ever has.&lt;/p&gt;&lt;/li&gt;
 &lt;li&gt;&lt;p&gt;Sometime this week remember to put some time aside to do something special for yourself.&lt;/p&gt;&lt;/li&gt;
 &lt;li&gt;&lt;p&gt;Life&amp;rsquo;s too short to fix all your weaknesses. Go all in on your strengths and get help with the rest.&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;Be driven &amp;ndash; fail fast, fail often, learn, get up, and crush it again. Never ever stop challenging the status quo.&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;Ideas are a dime a dozen &amp;ndash; execution is what matters.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Be driven - fail fast, fail often, learn, get up, and crush it again. Never ever stop challenging the status quo.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Ideas are a dime a dozen - execution is what matters.&lt;/p&gt;&lt;/li&gt;
 &lt;li&gt;&lt;p&gt;Believe in your vision. If you can figure it out, you have the ability to change the world.&lt;/p&gt;&lt;/li&gt;
 &lt;li&gt;&lt;p&gt;&amp;ldquo;If you obey all the rules, you miss all the fun.&amp;rdquo;&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;&amp;ldquo;Your life will not be better because it has more stuff in it&amp;rdquo; &amp;ndash; materialism&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;&amp;ldquo;If any man tells you he loves America, yet hates labor, he is a liar.&amp;rdquo; &amp;ndash; Abraham Lincoln&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;&amp;ldquo;If I worked in a factory, the first thing I would do is join a union&amp;rdquo; &amp;ndash; FDR&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&amp;ldquo;Your life will not be better because it has more stuff in it&amp;rdquo; - materialism&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&amp;ldquo;If any man tells you he loves America, yet hates labor, he is a liar.&amp;rdquo; - Abraham Lincoln&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&amp;ldquo;If I worked in a factory, the first thing I would do is join a union&amp;rdquo; - FDR&lt;/p&gt;&lt;/li&gt;
 &lt;li&gt;&lt;p&gt;The boss inspires fear; the leader inspires enthusiasm. The Builder is inspired — by changing the world.&lt;/p&gt;&lt;/li&gt;
 &lt;li&gt;&lt;p&gt;&amp;ldquo;Motivation will almost always beat mere talent.&amp;rdquo;&lt;/p&gt;&lt;/li&gt;
 &lt;li&gt;&lt;p&gt;Live in this moment. Not before, not after&amp;hellip; NOW.&lt;/p&gt;&lt;/li&gt;
 &lt;li&gt;&lt;p&gt;&amp;ldquo;Doing what you like is freedom. Liking what you do is happiness.&amp;rdquo;&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;&amp;ldquo;We can&amp;rsquo;t afford to jeopardize our future by repeating the mistakes of the past.&amp;rdquo; &amp;ndash; President Obama&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;Don&amp;rsquo;t make a mountain out of a molehill &amp;ndash; everyone make mistakes. Everyone makes them, it&amp;rsquo;s normal and expected. Get used to it.&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;Change is not easy &amp;ndash; if everyone could you&amp;rsquo;d see it more often. Make the choice &amp;ndash; get better or get worse. It&amp;rsquo;s only one way or the other&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;&amp;ldquo;I never worry about action, but only inaction.&amp;rdquo; &amp;ndash; Winston Churchill&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;If you&amp;rsquo;re not prepared to be wrong &amp;ndash; you&amp;rsquo;ll never come up with anything original.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&amp;ldquo;We can&amp;rsquo;t afford to jeopardize our future by repeating the mistakes of the past.&amp;rdquo; - President Obama&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Don&amp;rsquo;t make a mountain out of a molehill - everyone make mistakes. Everyone makes them, it&amp;rsquo;s normal and expected. Get used to it.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Change is not easy - if everyone could you&amp;rsquo;d see it more often. Make the choice - get better or get worse. It&amp;rsquo;s only one way or the other&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&amp;ldquo;I never worry about action, but only inaction.&amp;rdquo; - Winston Churchill&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;If you&amp;rsquo;re not prepared to be wrong - you&amp;rsquo;ll never come up with anything original.&lt;/p&gt;&lt;/li&gt;
 &lt;li&gt;&lt;p&gt;&amp;ldquo;Anything worth living for is not easy; the hardship is what makes the journey toward that person or idea even more special&amp;rdquo;&lt;/p&gt;&lt;/li&gt;
 &lt;li&gt;&lt;p&gt;A wise woman once told me: &amp;ldquo;Never get so busy making a living, that you forget to make a life. Live freely, live deeply.&amp;rdquo;&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;&amp;ldquo;Do NOT take the gifts you&amp;rsquo;ve been given in life for granted. Life is NOT a Nintendo game &amp;ndash; there are no redo&amp;rsquo;s.&amp;rdquo;&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;You don&amp;rsquo;t stick a knife into a man&amp;rsquo;s back 9 inches, pull it out 6 inches, and call it progress. &amp;ndash; Malcolm X&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&amp;ldquo;Do NOT take the gifts you&amp;rsquo;ve been given in life for granted. Life is NOT a Nintendo game - there are no redo&amp;rsquo;s.&amp;rdquo;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;You don&amp;rsquo;t stick a knife into a man&amp;rsquo;s back 9 inches, pull it out 6 inches, and call it progress. - Malcolm X&lt;/p&gt;&lt;/li&gt;
 &lt;li&gt;&lt;p&gt;Luck is an accumulation of superior effort and focused execution.&lt;/p&gt;&lt;/li&gt;
 &lt;li&gt;&lt;p&gt;In order to have character, you&amp;rsquo;re going to have to stand up for some things you believe in. In doing that, you&amp;rsquo;re going to naturally make enemies of people who believe in different things.&lt;/p&gt;&lt;/li&gt;
 &lt;li&gt;&lt;p&gt;A man with no enemies is a man with no character.&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;An opinion feels good. It lets us feel resolution about an issue. Thinking about an issue can be really hard, though, particularly when both sides have points. &amp;ndash; JFK on opinion and thought&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;An opinion feels good. It lets us feel resolution about an issue. Thinking about an issue can be really hard, though, particularly when both sides have points. - JFK on opinion and thought&lt;/p&gt;&lt;/li&gt;
 &lt;li&gt;&lt;p&gt;&amp;ldquo;Too often we enjoy the comfort of opinion without the discomfort of thought.&amp;rdquo; – John F. Kennedy&lt;/p&gt;&lt;/li&gt;
 &lt;li&gt;&lt;p&gt;The world would be a better place if people spent more time thinking about the issues than telling everyone their opinions&lt;/p&gt;&lt;/li&gt;
 &lt;li&gt;&lt;p&gt;Time management can seem overbearing and frustrating at times, but it&amp;rsquo;s valuable because of what it gives you in the long run: more time.&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;&amp;ldquo;If you love life, don&amp;rsquo;t waste time, for time is what life is made up of.&amp;rdquo; &amp;ndash; Bruce Lee&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;Be kind, for everyone you meet is fighting a hard battle. &amp;ndash; Plato&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;&amp;ldquo;Kindness shown to the poor is an act of worship.&amp;rdquo; &amp;ndash; Proverbs 14:31&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&amp;ldquo;If you love life, don&amp;rsquo;t waste time, for time is what life is made up of.&amp;rdquo; - Bruce Lee&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Be kind, for everyone you meet is fighting a hard battle. - Plato&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&amp;ldquo;Kindness shown to the poor is an act of worship.&amp;rdquo; - Proverbs 14:31&lt;/p&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 </description>
@@ -517,7 +536,7 @@ Colon used for alignment (right versus left)&lt;/p&gt;
 
 
 &lt;p&gt;    &lt;br/&gt;
-Try the demo &amp;ndash; &lt;a href=&quot;http://briannaja.github.com/Rigging-App/&quot;&gt;http://briannaja.github.com/Rigging-App/&lt;/a&gt;&lt;/p&gt;
+Try the demo - &lt;a href=&quot;http://briannaja.github.com/Rigging-App/&quot;&gt;http://briannaja.github.com/Rigging-App/&lt;/a&gt;&lt;/p&gt;
 </description>
     </item>
     
