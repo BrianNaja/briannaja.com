@@ -371,14 +371,6 @@ blockquote {
   min-width: 768px;
   margin: 0 auto; }
 
-.row .row {
-            /*I'm setting a negative left and right margin on the row. 
-This is because the container row has padding on it I don’t want double padding*/
-  width: auto;
-  max-width: none;
-  min-width: 0;
-  margin: 0 -15px; }
-
 .column, .columns {
   float: left;
   min-height: 1px;
@@ -441,9 +433,6 @@ This is because the container row has padding on it I don’t want double paddin
 
 .row, .clearfix {
   zoom: 1; }
-
-img {
-  max-width: 100%; }
 
 /* !Mobile */
 @media only screen and (max-width: 767px) {
@@ -616,6 +605,10 @@ pre {
 pre, code {
   font-family: 'Ubuntu', sans-serif !important; }
 
+.lineno {
+  color: #595959;
+  padding-right: 10px; }
+
 /*Syntax Highlight End*/
 /*Gallery*/
 .gallery li {
@@ -727,7 +720,10 @@ td, th {
   .meta li:nth-child(3) {
     display: inline-block;
     float: left;
-    margin: 0px 0px 16px 0px; } }
+    margin: 0px 0px 16px 0px; }
+
+  .lineno {
+    padding-right: 16px; } }
 /*Tables End*/
 .hll {
   background-color: #ffffcc; }
@@ -742,7 +738,7 @@ td, th {
 
 /* Error */
 .k {
-  color: #003580;
+  color: #007ad1;
   font-weight: normal; }
 
 /* Keyword */
@@ -857,7 +853,7 @@ td, th {
 
 /* Name.Builtin */
 .nc {
-  color: #0000FF;
+  color: #d2d0d0;
   font-weight: normal; }
 
 /* Name.Class */
@@ -866,7 +862,7 @@ td, th {
 
 /* Name.Constant */
 .nd {
-  color: #aa22ff; }
+  color: #c261ff; }
 
 /* Name.Decorator */
 .ni {
@@ -893,7 +889,7 @@ td, th {
 
 /* Name.Namespace */
 .nt {
-  color: #d24d33;
+  color: #e06b6b;
   font-weight: normal; }
 
 /* Name.Tag */
