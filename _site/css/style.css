@@ -371,14 +371,6 @@ blockquote {
   min-width: 768px;
   margin: 0 auto; }
 
-.row .row {
-            /*I'm setting a negative left and right margin on the row. 
-This is because the container row has padding on it I don’t want double padding*/
-  width: auto;
-  max-width: none;
-  min-width: 0;
-  margin: 0 -15px; }
-
 .column, .columns {
   float: left;
   min-height: 1px;
@@ -441,9 +433,6 @@ This is because the container row has padding on it I don’t want double paddin
 
 .row, .clearfix {
   zoom: 1; }
-
-img {
-  max-width: 100%; }
 
 /* !Mobile */
 @media only screen and (max-width: 767px) {
