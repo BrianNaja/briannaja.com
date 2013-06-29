@@ -25,6 +25,10 @@ layout: default
               </div>"; 
               
               ?>	
+				 <br>
+			<div class="video">
+			  <iframe src="http://player.vimeo.com/video/69279077" width="500" height="375" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+			</div>
 				 
 			<img class="dancing-bear" src="dancing-bear.gif" alt="dancing bear">
 			

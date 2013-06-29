@@ -191,6 +191,11 @@ pre, code {
      font-family: 'Ubuntu', sans-serif !important;
 }
 
+.lineno {
+  color: #595959;
+  padding-right: 10px;
+}
+
 /*Syntax Highlight End*/
 
 /*!Gallery*/
@@ -340,6 +345,10 @@ body {
     display: inline-block;
     float: left;
     margin: 0px 0px 16px 0px;
+}
+
+.lineno {
+  padding-right: 16px;
 }
 
 }

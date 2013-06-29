@@ -50,6 +50,10 @@
               </div>"; 
               
               ?>	
+				 <br>
+			<div class="video">
+			  <iframe src="http://player.vimeo.com/video/69279077" width="500" height="375" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+			</div>
 				 
 			<img class="dancing-bear" src="dancing-bear.gif" alt="dancing bear">
 			
@@ -78,6 +82,8 @@
 			<h4>Recent Writings From the archives</h4>
 			<ul class="disc">
 				
+				<li><a href="/a-simple-responsive-css-grid">A Simple Responsive CSS Grid</a></li>
+				
 				<li><a href="/markdown-cheat-sheet">Markdown Cheat Sheet</a></li>
 				
 				<li><a href="/video/gary-kovacs-tracking-the-trackers">Gary Kovacs - Tracking the trackers</a></li>
@@ -95,8 +101,6 @@
 				<li><a href="/people-ask-to-see-stars">People ask to see stars</a></li>
 				
 				<li><a href="/earth-at-night">Earth at night</a></li>
-				
-				<li><a href="/video/view-from-the-ISS-at-Night">View from the ISS at Night</a></li>
 				
 			</ul>
 	    </aside>
