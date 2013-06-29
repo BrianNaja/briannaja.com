@@ -12,8 +12,4 @@ prose:
   
   metadata:
     _posts:
-       name: "categories"
-        field:
-          element: "hidden"
-          value:
-             "post"
+       title: "categories"
