@@ -12,12 +12,9 @@ prose:
   
   metadata:
     _posts:
-        title: "Post Title"
-        
-        layout: "layout"
-          value: "post"
-          
-      
-        category: "Post Category"
-        
+        - name: "layout"
+        field:
+          element: "text"
+          label: "Layout"
+          value: "default"        
         
