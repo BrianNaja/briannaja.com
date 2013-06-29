@@ -8,12 +8,12 @@ paginate: 5
 prose:
   siteurl: "http://briannaja.com"
   rooturl: "_posts"
-  media: "images"  
+  media: "images"
+  
   metadata:
     _posts:
         title: "Post Title"
-        layout: "post/video-post"      
+        layout: "post"      
         category: "post/video"
-        
         
         
