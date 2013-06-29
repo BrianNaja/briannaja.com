@@ -6,3 +6,4 @@ rdiscount:
 pygments: true
 permalink: /:categories/:title
 paginate: 5
+siteurl: "http://briannaja.com"
