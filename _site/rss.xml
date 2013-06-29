@@ -6,8 +6,8 @@
     <atom:link href="http://briannaja/rss.xml" rel="self" type="application/rss+xml" />
     <description>Brian Naja's Blog</description>
     <language>en-us</language>
-    <pubDate>Sun, 23 Jun 2013 16:00:48 -0400</pubDate>
-    <lastBuildDate>Sun, 23 Jun 2013 16:00:48 -0400</lastBuildDate>
+    <pubDate>Sat, 29 Jun 2013 15:20:46 -0400</pubDate>
+    <lastBuildDate>Sat, 29 Jun 2013 15:20:46 -0400</lastBuildDate>
  
     
     <item>
@@ -17,6 +17,8 @@
       <author>Brian Naja</author>
       <guid>http://functionn.github.com/markdown-cheat-sheet</guid>
       <description>&lt;h3&gt;A little about Markdown.&lt;/h3&gt;
+
+&lt;p&gt;test&lt;/p&gt;
 
 &lt;p&gt;Markdown was created by &lt;a href=&quot;http://daringfireball.net&quot;&gt;John Gruber&lt;/a&gt; and Aaron Swartz. It is a simplified human readable form of markup that outputs HTML for posting on the web or rich text for sending emails.&lt;/p&gt;
 
@@ -128,7 +130,7 @@ Colon used for alignment (right versus left)&lt;/p&gt;
 
 &lt;pre&gt;&lt;code&gt;Apple
 : Pomaceous fruit of plants of the genus Malus.
-: An american computer company.  
+: An american computer company.
 &lt;/code&gt;&lt;/pre&gt;
 </description>
     </item>
