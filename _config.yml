@@ -19,7 +19,9 @@ prose:
           label: "something"
           placeholder: "Select an Item"
           options:
+            post: "post"
               value: "post"
+            video: "video"
               value: "video"
           selected: "post"
         
