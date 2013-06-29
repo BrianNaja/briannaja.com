@@ -14,7 +14,7 @@ prose:
     _posts:
         title: "Post Title"
         
-        - name: "layout"
+        layout: "layout"
         field:
           element: "text"
           label: "Layout"
