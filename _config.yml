@@ -9,7 +9,6 @@ prose:
   siteurl: "http://briannaja.com"
   rooturl: "_posts"
   media: "images"
-prose:  
   metadata:
     _posts:
         title: "Post Title"
@@ -17,12 +16,10 @@ prose:
         name: "category"
         field:
           element: "select"
-          label: "category"
+          label: "something"
           placeholder: "Select an Item"
           options:
-            - name: "post"
               value: "post"
-            - name: "video"
               value: "video"
           selected: "post"
         
