@@ -13,13 +13,9 @@ prose:
   metadata:
     _posts:
         title: "Post Title"
-          label: "Post Title"
       
-        layout: "Post Category"
-          field:
+        category: "Post Category"
           element: "select"
-          label: "Item"
-          placeholder: "Select an Item"
           options:
           value: "post"
           value: "video"
