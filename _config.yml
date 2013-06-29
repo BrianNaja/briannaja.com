@@ -5,34 +5,36 @@ rdiscount:
 pygments: true
 permalink: /:categories/:title
 paginate: 5
-
+prose:
+  siteurl: "http://briannaja.com"
+  rooturl: "_posts"
+  media: "images"
   
- prose:
   metadata:
     _posts:
-      - name: "categories"
+        name: "categories"
         field:
           element: "hidden"
           value:
             - "post"
-      - name: "layout"
+        name: "layout"
         field:
           element: "text"
           label: "Layout"
           value: "default"
-      - name: "order"
+        name: "order"
         field:
           element: "number"
           label: "Order"
           value: 0
-      - name: "item"
+        name: "item"
         field:
           element: "select"
           label: "Item"
           placeholder: "Select an Item"
           options:
-            - name: "Item 1"
+              name: "Item 1"
               value: "item1"
-            - name: "Item 2"
+              name: "Item 2"
               value: "item2"
           selected: "item2"
