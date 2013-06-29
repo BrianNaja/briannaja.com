@@ -590,7 +590,9 @@ article:nth-child(5) {
 img {
   border: 6px solid #363333;
   border-radius: 2px;
-  padding: 2px; }
+  padding: 2px;
+  width: 100%;
+  height: auto; }
 
 /*Article End*/
 /*Syntax Highlight*/
