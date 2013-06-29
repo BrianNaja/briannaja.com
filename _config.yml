@@ -12,14 +12,8 @@ prose:
   
   metadata:
     _posts:
-        title: "Post Title"
-        field:
-          element: "text"
+        title: 
           label: "Post Title"
-          value: "How is your day"
       
-        layout: "Layout"
-        field:
-          element: "text"
+        layout: 
           label: "Layout"
-          value: "post"
