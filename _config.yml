@@ -5,10 +5,7 @@ rdiscount:
 pygments: true
 permalink: /:categories/:title
 paginate: 5
-prose:
-  siteurl: "http://briannaja.com"
-  rooturl: "_posts"
-  media: "images"
+
   
  prose:
   metadata:
