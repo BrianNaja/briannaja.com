@@ -16,7 +16,11 @@ prose:
           label: "Post Title"
       
         layout: "Post Category"
+          field:
+          element: "select"
+          label: "Item"
           placeholder: "Select an Item"
           options:
           value: "post"
           value: "video"
+          selected: "post"
