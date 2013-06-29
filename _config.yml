@@ -13,5 +13,14 @@ prose:
   metadata:
     _posts:
         title: "Post Title"
+        
+        - name: "layout"
+        field:
+          element: "text"
+          label: "Layout"
+          value: "post"
+          
       
         category: "Post Category"
+        
+        
