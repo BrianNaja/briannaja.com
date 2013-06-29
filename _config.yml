@@ -11,20 +11,9 @@ prose:
   media: "images"
   
   metadata:
-     _posts:
-         title: "Post Title"
-         layout: "post/video-post"      
-       name: "category"
-        field:
-         element: "select"
-         label: "something"
-         placeholder: "Select an Item"
-         options:
-            post: "post"
-              value: "post"
-            video: "video"
-              value: "video"
-          selected: "post"
+    _posts:
+        title: "Post Title"
+        layout: "post/video-post"      
         category: "post/video"
         
         
