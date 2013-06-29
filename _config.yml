@@ -15,10 +15,7 @@ prose:
         title: "Post Title"
         
         layout: "layout"
-        field:
-          element: "text"
-          label: "Layout"
-          value: "post"
+        
           
       
         category: "Post Category"
