@@ -1,8 +1,12 @@
 ---
+published: true
 title: Markdown Cheat Sheet
 layout: post
 ---
+
 ###A little about Markdown.  
+
+test
 
 Markdown was created by [John Gruber](http://daringfireball.net) and Aaron Swartz. It is a simplified human readable form of markup that outputs HTML for posting on the web or rich text for sending emails.
 
@@ -101,4 +105,4 @@ Multiple definitions and terms are possible
 
 	Apple
 	: Pomaceous fruit of plants of the genus Malus.
-	: An american computer company.  
+	: An american computer company.
