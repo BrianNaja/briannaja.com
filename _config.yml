@@ -9,11 +9,3 @@ prose:
   siteurl: "http://briannaja.com"
   rooturl: "_posts"
   media: "images"
-  
-  metadata:
-    _posts:
-        title: "categories"
-        field:
-          element: "hidden"
-          value:
-             "post"
