@@ -1,8 +1,9 @@
 ---
+published: true
 title: A Simple Responsive CSS Grid
 layout: post
 ---
-test
+
 {% highlight css linenos %}
 * { 
 	-moz-box-sizing: border-box; 
