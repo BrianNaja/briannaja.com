@@ -10,6 +10,7 @@ prose:
   rooturl: "_posts"
   media: "images"
   
+ prose:
   metadata:
     _posts:
       - name: "categories"
