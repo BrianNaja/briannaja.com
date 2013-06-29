@@ -13,7 +13,7 @@ prose:
   metadata:
     _posts:
         title: "Post Title"
-        layout: "post"      
+        layout: "post/video-post"      
         category: "post/video"
         
         
