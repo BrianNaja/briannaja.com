@@ -12,8 +12,11 @@ prose:
   
   metadata:
     _posts:
-        title: 
+        title: "Post Title"
           label: "Post Title"
       
-        layout: 
-          label: "Layout"
+        layout: "Post Category"
+          placeholder: "Select an Item"
+          options:
+          value: "post"
+          value: "video"
