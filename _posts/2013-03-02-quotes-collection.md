@@ -1,8 +1,7 @@
 ---
 title: Quotes Collection
-author: Brian
 layout: post
-permalink: /my-quotes-collection/
+category: post
 ---
 - It's so much easier to talk about how something sucks than to talk about how it could be awesome. Negativity is for the lazy.
 

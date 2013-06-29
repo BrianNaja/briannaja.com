@@ -1,8 +1,7 @@
 ---
 title: How taxpayers subsidize Walmart
-author: Brian
 layout: post
-permalink: /how-taxpayers-subsidize-walmart/
+category: post
 ---
 Walmart is the largest private employer in the U.S. and has the most workers on public assistance. 
 

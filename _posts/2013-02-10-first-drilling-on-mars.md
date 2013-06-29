@@ -1,10 +1,7 @@
 ---
-
 title: First drilling on Mars
-author: Brian
 layout: post
-permalink: /first-drilling-on-mars/
-
+category: post
 ---
 To collect the sample, Curiosity used the drill at the end of its seven-foot robotic arm to make a hole in the bedrock.
 

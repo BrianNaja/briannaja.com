@@ -1,6 +1,7 @@
 ---
 title: People ask to see stars
 layout: post
+category: post
 ---
 
 <blockquote class="twitter-tweet"><p>Tonight's Finale: People ask to see stars - my camera does its best in dim light. Our atmosphere glows in the dark. <a href="http://t.co/X1JnnQPBuC" title="http://twitter.com/Cmdr_Hadfield/status/322848971787730944/photo/1">twitter.com/Cmdr_Hadfield/…</a></p>&mdash; Chris Hadfield (@Cmdr_Hadfield) <a href="https://twitter.com/Cmdr_Hadfield/status/322848971787730944">April 12, 2013</a></blockquote>

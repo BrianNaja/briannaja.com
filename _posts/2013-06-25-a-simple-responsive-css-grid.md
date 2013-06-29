@@ -1,7 +1,7 @@
 ---
-published: true
 title: A Simple Responsive CSS Grid
 layout: post
+category: post
 ---
 
 {% highlight css linenos %}

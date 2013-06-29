@@ -1,8 +1,7 @@
 ---
 title: Sunset from Mars
-author: Brian
 layout: post
-permalink: /sunset-from-mars/
+category: post
 ---
 ![Sunset from Mars](/images/mars/full/sunset-from-mars.jpg "Sunset from Mars")
 

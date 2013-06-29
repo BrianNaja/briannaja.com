@@ -1,7 +1,7 @@
 ---
-published: true
 title: Markdown Cheat Sheet
 layout: post
+category: post
 ---
 
 ###A little about Markdown.  

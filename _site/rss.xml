@@ -6,17 +6,17 @@
     <atom:link href="http://briannaja/rss.xml" rel="self" type="application/rss+xml" />
     <description>Brian Naja's Blog</description>
     <language>en-us</language>
-    <pubDate>Sat, 29 Jun 2013 16:14:17 -0400</pubDate>
-    <lastBuildDate>Sat, 29 Jun 2013 16:14:17 -0400</lastBuildDate>
+    <pubDate>Sat, 29 Jun 2013 19:17:09 -0400</pubDate>
+    <lastBuildDate>Sat, 29 Jun 2013 19:17:09 -0400</lastBuildDate>
  
     
     <item>
       <title>A Simple Responsive CSS Grid</title>
-      <link>http://briannaja.com/a-simple-responsive-css-grid</link>
+      <link>http://briannaja.com/post/a-simple-responsive-css-grid</link>
       <pubDate>Tue, 25 Jun 2013 00:00:00 -0400</pubDate>
       <author>Brian Naja</author>
-      <guid>http://functionn.github.com/a-simple-responsive-css-grid</guid>
-      <description>&lt;p&gt;test&lt;/p&gt;
+      <guid>http://functionn.github.com/post/a-simple-responsive-css-grid</guid>
+      <description>
 
 &lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;css&quot;&gt;&lt;span class=&quot;lineno&quot;&gt;  1&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;*&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt; 
 &lt;span class=&quot;lineno&quot;&gt;  2&lt;/span&gt;     &lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;moz&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;box&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;sizing&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;border&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;box&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt; 
@@ -156,18 +156,18 @@
 &lt;span class=&quot;lineno&quot;&gt;136&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
+
+
 </description>
     </item>
     
     <item>
       <title>Markdown Cheat Sheet</title>
-      <link>http://briannaja.com/markdown-cheat-sheet</link>
+      <link>http://briannaja.com/post/markdown-cheat-sheet</link>
       <pubDate>Mon, 17 Jun 2013 00:00:00 -0400</pubDate>
       <author>Brian Naja</author>
-      <guid>http://functionn.github.com/markdown-cheat-sheet</guid>
+      <guid>http://functionn.github.com/post/markdown-cheat-sheet</guid>
       <description>&lt;h3&gt;A little about Markdown.&lt;/h3&gt;
-
-&lt;p&gt;test&lt;/p&gt;
 
 &lt;p&gt;Markdown was created by &lt;a href=&quot;http://daringfireball.net&quot;&gt;John Gruber&lt;/a&gt; and Aaron Swartz. It is a simplified human readable form of markup that outputs HTML for posting on the web or rich text for sending emails.&lt;/p&gt;
 
@@ -303,10 +303,10 @@ Colon used for alignment (right versus left)&lt;/p&gt;
     
     <item>
       <title>Boilermaking Photos</title>
-      <link>http://briannaja.com/boilermaking-photos</link>
+      <link>http://briannaja.com/post/boilermaking-photos</link>
       <pubDate>Sat, 25 May 2013 00:00:00 -0400</pubDate>
       <author>Brian Naja</author>
-      <guid>http://functionn.github.com/boilermaking-photos</guid>
+      <guid>http://functionn.github.com/post/boilermaking-photos</guid>
       <description>&lt;div class=&quot;gallery&quot;&gt;
         &lt;p&gt;&lt;a href=&quot;/images/boilermaking-photos/full/bm1.jpg&quot;&gt;&lt;img src=&quot;/images/boilermaking-photos/thumb/bm1.jpg&quot;/&gt;&lt;/a&gt;&lt;/p&gt;
         &lt;p&gt;&lt;a href=&quot;/images/boilermaking-photos/full/bm2.jpg&quot;&gt;&lt;img src=&quot;/images/boilermaking-photos/thumb/bm2.jpg&quot;/&gt;&lt;/a&gt;&lt;/p&gt;
@@ -345,10 +345,10 @@ Colon used for alignment (right versus left)&lt;/p&gt;
     
     <item>
       <title>What is Collective Bargining</title>
-      <link>http://briannaja.com/what-is-collective-bargaining</link>
+      <link>http://briannaja.com/post/what-is-collective-bargaining</link>
       <pubDate>Mon, 06 May 2013 00:00:00 -0400</pubDate>
       <author>Brian Naja</author>
-      <guid>http://functionn.github.com/what-is-collective-bargaining</guid>
+      <guid>http://functionn.github.com/post/what-is-collective-bargaining</guid>
       <description>&lt;p&gt;Collective bargaining is the process in which employees (through their unions) negotiate with their employers to determine their terms of employment. The terms that are usually negotiated include pay, retirement, health care, hours, leave and safety policies. At the end of this process, both parties walk away with a contract.&lt;/p&gt;
 
 &lt;blockquote&gt;&lt;p&gt;Bottom line: The right to organize and collectively bargain is a fundamental American value; every American should have a voice on the job and a chance to negotiate for a fair day&amp;rsquo;s pay after a hard day&amp;rsquo;s work.&lt;/p&gt;&lt;/blockquote&gt;
@@ -357,10 +357,10 @@ Colon used for alignment (right versus left)&lt;/p&gt;
     
     <item>
       <title>Right To Work - A Closer Look</title>
-      <link>http://briannaja.com/right-to-work-a-closer-look</link>
+      <link>http://briannaja.com/post/right-to-work-a-closer-look</link>
       <pubDate>Wed, 01 May 2013 00:00:00 -0400</pubDate>
       <author>Brian Naja</author>
-      <guid>http://functionn.github.com/right-to-work-a-closer-look</guid>
+      <guid>http://functionn.github.com/post/right-to-work-a-closer-look</guid>
       <description>&lt;p&gt;The administration of a union takes time and money. Many unions have implemented contracts that require workers to become a union member and pay mandatory union dues. Right-To-Work laws make it illegal to impose these mandatory union dues. These laws where designed to undermine unions&#39; bargaining strength and their primary focus is to make it harder for a workers&#39; organization to sustain themselves financially.&lt;/p&gt;
 
 &lt;ul&gt;
@@ -392,10 +392,10 @@ Colon used for alignment (right versus left)&lt;/p&gt;
     
     <item>
       <title>People ask to see stars</title>
-      <link>http://briannaja.com/people-ask-to-see-stars</link>
+      <link>http://briannaja.com/post/people-ask-to-see-stars</link>
       <pubDate>Sat, 13 Apr 2013 00:00:00 -0400</pubDate>
       <author>Brian Naja</author>
-      <guid>http://functionn.github.com/people-ask-to-see-stars</guid>
+      <guid>http://functionn.github.com/post/people-ask-to-see-stars</guid>
       <description>&lt;blockquote class=&quot;twitter-tweet&quot;&gt;&lt;p&gt;Tonight&#39;s Finale: People ask to see stars - my camera does its best in dim light. Our atmosphere glows in the dark. &lt;a href=&quot;http://t.co/X1JnnQPBuC&quot; title=&quot;http://twitter.com/Cmdr_Hadfield/status/322848971787730944/photo/1&quot;&gt;twitter.com/Cmdr_Hadfield/…&lt;/a&gt;&lt;/p&gt;&amp;mdash; Chris Hadfield (@Cmdr_Hadfield) &lt;a href=&quot;https://twitter.com/Cmdr_Hadfield/status/322848971787730944&quot;&gt;April 12, 2013&lt;/a&gt;&lt;/blockquote&gt;
 
 
@@ -408,10 +408,10 @@ Colon used for alignment (right versus left)&lt;/p&gt;
     
     <item>
       <title>Earth at night</title>
-      <link>http://briannaja.com/earth-at-night</link>
+      <link>http://briannaja.com/post/earth-at-night</link>
       <pubDate>Thu, 11 Apr 2013 00:00:00 -0400</pubDate>
       <author>Brian Naja</author>
-      <guid>http://functionn.github.com/earth-at-night</guid>
+      <guid>http://functionn.github.com/post/earth-at-night</guid>
       <description>&lt;div class=&quot;gallery&quot;&gt;
         &lt;p&gt;&lt;a href=&quot;/images/earth/full/the-americas.jpg&quot;&gt;&lt;img src=&quot;/images/earth/thumb/the-americas.jpg&quot; alt=&quot;The Americas at night&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
         &lt;p&gt;&lt;a href=&quot;/images/earth/full/united-states.jpg&quot;&gt;&lt;img src=&quot;/images/earth/thumb/united-states.jpg&quot; alt=&quot;United States at night&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
@@ -441,10 +441,10 @@ Colon used for alignment (right versus left)&lt;/p&gt;
     
     <item>
       <title>What is HTML</title>
-      <link>http://briannaja.com/what-is-html</link>
+      <link>http://briannaja.com/post/what-is-html</link>
       <pubDate>Tue, 02 Apr 2013 00:00:00 -0400</pubDate>
       <author>Brian Naja</author>
-      <guid>http://functionn.github.com/what-is-html</guid>
+      <guid>http://functionn.github.com/post/what-is-html</guid>
       <description>&lt;p&gt;HyperText Markup Language (HTML) is the main markup language used for creating web pages. A markup language is a combination of words and symbols that give instructions on the semantics of a document.  For example, &lt;code&gt;&amp;lt;em&amp;gt;&lt;/code&gt; emphasis,  &lt;code&gt;&amp;lt;ul&amp;gt;&lt;/code&gt; an unordered list and a &lt;code&gt;&amp;lt;p&amp;gt;&lt;/code&gt; paragraph all have semantic meaning.&lt;/p&gt;
 
 &lt;p&gt;HTML began in 1989 by &lt;a href=&quot;http://www.w3.org/People/Berners-Lee/&quot;&gt;Tim Berners-Lee&lt;/a&gt; at CERN, the European Laboratory for Particle Physics in Geneva, Switzerland. Tim had the idea of enabling researchers from remote sites in the world to organize and pool together information. In other words, there could be cross-references from one research paper to another. This would mean that while reading one research paper, you could quickly display part of another paper that holds directly relevant text or diagrams. Tim thought this could be done by using some form of hypertext to link documents together.&lt;/p&gt;
@@ -561,10 +561,10 @@ Colon used for alignment (right versus left)&lt;/p&gt;
     
     <item>
       <title>Upending a Cracker</title>
-      <link>http://briannaja.com/upending-a-cracker</link>
+      <link>http://briannaja.com/post/upending-a-cracker</link>
       <pubDate>Wed, 06 Mar 2013 00:00:00 -0500</pubDate>
       <author>Brian Naja</author>
-      <guid>http://functionn.github.com/upending-a-cracker</guid>
+      <guid>http://functionn.github.com/post/upending-a-cracker</guid>
       <description>&lt;div class=&quot;gallery&quot;&gt;
         &lt;p&gt;&lt;a href=&quot;/images/upending-cracker/full/IMG_16491.jpg&quot;&gt;&lt;img src=&quot;/images/upending-cracker/thumb/IMG_16491.jpg&quot;/&gt;&lt;/a&gt;&lt;/p&gt;
         &lt;p&gt;&lt;a href=&quot;/images/upending-cracker/full/IMG_1670.jpg&quot;&gt;&lt;img src=&quot;/images/upending-cracker/thumb/IMG_1670.jpg&quot;/&gt;&lt;/a&gt;&lt;/p&gt;
@@ -580,10 +580,10 @@ Colon used for alignment (right versus left)&lt;/p&gt;
     
     <item>
       <title>Quotes Collection</title>
-      <link>http://briannaja.com/my-quotes-collection/</link>
+      <link>http://briannaja.com/post/quotes-collection</link>
       <pubDate>Sat, 02 Mar 2013 00:00:00 -0500</pubDate>
       <author>Brian Naja</author>
-      <guid>http://functionn.github.com/quotes-collection</guid>
+      <guid>http://functionn.github.com/post/quotes-collection</guid>
       <description>&lt;ul&gt;
 &lt;li&gt;&lt;p&gt;It&amp;rsquo;s so much easier to talk about how something sucks than to talk about how it could be awesome. Negativity is for the lazy.&lt;/p&gt;&lt;/li&gt;
 &lt;li&gt;&lt;p&gt;&amp;ldquo;I can never stand still. I must explore and experiment. I am never satisfied with my work.&amp;rdquo; - Walt Disney&lt;/p&gt;&lt;/li&gt;
@@ -677,10 +677,10 @@ Colon used for alignment (right versus left)&lt;/p&gt;
     
     <item>
       <title>RigIt the Web App for Rigging</title>
-      <link>http://briannaja.com/rigit-the-web-app-for-rigging/</link>
+      <link>http://briannaja.com/post/rigit-the-web-app-for-rigging</link>
       <pubDate>Sun, 17 Feb 2013 00:00:00 -0500</pubDate>
       <author>Brian Naja</author>
-      <guid>http://functionn.github.com/rigit-the-web-app-for-rigging</guid>
+      <guid>http://functionn.github.com/post/rigit-the-web-app-for-rigging</guid>
       <description>&lt;div class=&quot;gallery&quot;&gt;
         &lt;p&gt;&lt;a href=&quot;/images/rigit/full/rigit.jpg&quot;&gt;&lt;img src=&quot;/images/rigit/thumb/rigit.jpg&quot;/&gt;&lt;/a&gt;RigIt is a rigging web application that was built with jQuery Mobile and has offline browsing capabilities.&lt;/p&gt;
 &lt;/div&gt;
@@ -706,10 +706,10 @@ Try the demo - &lt;a href=&quot;http://briannaja.github.com/Rigging-App/&quot;&g
     
     <item>
       <title>First drilling on Mars</title>
-      <link>http://briannaja.com/first-drilling-on-mars/</link>
+      <link>http://briannaja.com/post/first-drilling-on-mars</link>
       <pubDate>Sun, 10 Feb 2013 00:00:00 -0500</pubDate>
       <author>Brian Naja</author>
-      <guid>http://functionn.github.com/first-drilling-on-mars</guid>
+      <guid>http://functionn.github.com/post/first-drilling-on-mars</guid>
       <description>&lt;p&gt;To collect the sample, Curiosity used the drill at the end of its seven-foot robotic arm to make a hole in the bedrock.&lt;/p&gt;
 
 &lt;p&gt;NASA associate administrator John Grunsfeld says Curiosity is &amp;ldquo;Now a fully operating analytical laboratory on Mars,&amp;rdquo; calling the event the biggest milestone since the rover landed on the planet.&lt;/p&gt;
@@ -722,10 +722,10 @@ Try the demo - &lt;a href=&quot;http://briannaja.github.com/Rigging-App/&quot;&g
     
     <item>
       <title>How taxpayers subsidize Walmart</title>
-      <link>http://briannaja.com/how-taxpayers-subsidize-walmart/</link>
+      <link>http://briannaja.com/post/how-taxpayers-subsidize-walmart</link>
       <pubDate>Sat, 02 Feb 2013 00:00:00 -0500</pubDate>
       <author>Brian Naja</author>
-      <guid>http://functionn.github.com/how-taxpayers-subsidize-walmart</guid>
+      <guid>http://functionn.github.com/post/how-taxpayers-subsidize-walmart</guid>
       <description>&lt;p&gt;Walmart is the largest private employer in the U.S. and has the most workers on public assistance.&lt;/p&gt;
 
 &lt;p&gt;In 2007, the company shifted from regular shifts to flexible shifts, a change labor activists said was designed to force full-time workers to downgrade their status to part-time, so they would not qualify for health insurance or other benefits.&lt;/p&gt;
@@ -738,10 +738,10 @@ Try the demo - &lt;a href=&quot;http://briannaja.github.com/Rigging-App/&quot;&g
     
     <item>
       <title>Sunset from Mars</title>
-      <link>http://briannaja.com/sunset-from-mars/</link>
+      <link>http://briannaja.com/post/sunset-from-mars</link>
       <pubDate>Sun, 20 Jan 2013 00:00:00 -0500</pubDate>
       <author>Brian Naja</author>
-      <guid>http://functionn.github.com/sunset-from-mars</guid>
+      <guid>http://functionn.github.com/post/sunset-from-mars</guid>
       <description>&lt;p&gt;&lt;img src=&quot;/images/mars/full/sunset-from-mars.jpg&quot; title=&quot;Sunset from Mars&quot; alt=&quot;Sunset from Mars&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Test On May 19th, 2005, NASA&amp;rsquo;s Mars Exploration Rover Spirit captured this stunning view as the Sun sank below the rim of Gusev crater on Mars.&lt;/p&gt;
@@ -749,25 +749,11 @@ Try the demo - &lt;a href=&quot;http://briannaja.github.com/Rigging-App/&quot;&g
     </item>
     
     <item>
-      <title>Ford CEO and UAW President tour a modern auto plant</title>
-      <link>http://briannaja.com/ford-ceo-and-uaw-president-tour-a-modern-auto-plant/</link>
-      <pubDate>Fri, 04 Jan 2013 00:00:00 -0500</pubDate>
-      <author>Brian Naja</author>
-      <guid>http://functionn.github.com/ford-ceo-and-uaw-president-tour-a-modern-auto-plant</guid>
-      <description>&lt;p&gt;Ford CEO Henry Ford II and United Automobile Workers president Walter Reuther are jointly touring a modern auto plant.&lt;/p&gt;
-
-&lt;p&gt;Ford jokingly jabs at Reuther: &amp;ldquo;Walter, how are you going to get these robots to pay UAW dues?&amp;rdquo;&lt;/p&gt;
-
-&lt;p&gt;Not missing a beat, Reuther responds: &amp;ldquo;Henry, how are you going to get them to buy your cars?&amp;rdquo;&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
       <title>Hello world!</title>
-      <link>http://briannaja.com/hello-world</link>
+      <link>http://briannaja.com/post/hello-world</link>
       <pubDate>Sun, 23 Dec 2012 00:00:00 -0500</pubDate>
       <author>Brian Naja</author>
-      <guid>http://functionn.github.com/hello-world</guid>
+      <guid>http://functionn.github.com/post/hello-world</guid>
       <description>&lt;p&gt;Their will be more to come&amp;hellip;&lt;/p&gt;
 </description>
     </item>

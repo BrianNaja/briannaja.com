@@ -2,6 +2,7 @@
 title: Upending a Cracker
 layout: post
 date: March 06, 2013
+category: post
 ---
 
 <div class="gallery">

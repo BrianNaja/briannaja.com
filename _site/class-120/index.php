@@ -82,25 +82,25 @@
 			<h4>Recent Writings From the archives</h4>
 			<ul class="disc">
 				
-				<li><a href="/a-simple-responsive-css-grid">A Simple Responsive CSS Grid</a></li>
+				<li><a href="/post/a-simple-responsive-css-grid">A Simple Responsive CSS Grid</a></li>
 				
-				<li><a href="/markdown-cheat-sheet">Markdown Cheat Sheet</a></li>
+				<li><a href="/post/markdown-cheat-sheet">Markdown Cheat Sheet</a></li>
 				
 				<li><a href="/video/gary-kovacs-tracking-the-trackers">Gary Kovacs - Tracking the trackers</a></li>
 				
-				<li><a href="/boilermaking-photos">Boilermaking Photos</a></li>
+				<li><a href="/post/boilermaking-photos">Boilermaking Photos</a></li>
 				
 				<li><a href="/video/view-from-the-ISS-at-Night">NASA's Kepler seeks to answer- Is anybody out there?</a></li>
 				
-				<li><a href="/what-is-collective-bargaining">What is Collective Bargining</a></li>
+				<li><a href="/post/what-is-collective-bargaining">What is Collective Bargining</a></li>
 				
-				<li><a href="/right-to-work-a-closer-look">Right To Work - A Closer Look</a></li>
+				<li><a href="/post/right-to-work-a-closer-look">Right To Work - A Closer Look</a></li>
 				
 				<li><a href="/video/time-lapse-footage-of-the-Earth">Time-lapse footage of the Earth</a></li>
 				
-				<li><a href="/people-ask-to-see-stars">People ask to see stars</a></li>
+				<li><a href="/post/people-ask-to-see-stars">People ask to see stars</a></li>
 				
-				<li><a href="/earth-at-night">Earth at night</a></li>
+				<li><a href="/post/earth-at-night">Earth at night</a></li>
 				
 			</ul>
 	    </aside>

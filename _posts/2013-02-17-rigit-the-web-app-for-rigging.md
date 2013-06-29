@@ -1,8 +1,7 @@
 ---
 title: RigIt the Web App for Rigging
-author: Brian
 layout: post
-permalink: /rigit-the-web-app-for-rigging/
+category: post
 ---
 
 <div class="gallery">

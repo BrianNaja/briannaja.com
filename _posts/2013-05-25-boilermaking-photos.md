@@ -1,7 +1,7 @@
 ---
 title: Boilermaking Photos
 layout: post
-date: May 25, 2013
+category: post
 ---
 
 <div class="gallery">

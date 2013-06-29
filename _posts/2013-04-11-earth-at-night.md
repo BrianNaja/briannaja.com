@@ -1,7 +1,7 @@
 ---
 title: Earth at night
-author: Brian
 layout: post
+category: post
 ---
 <div class="gallery">
 		<p><a href="/images/earth/full/the-americas.jpg"><img src="/images/earth/thumb/the-americas.jpg" alt="The Americas at night" /></a></p>

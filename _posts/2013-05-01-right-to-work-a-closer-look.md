@@ -1,6 +1,7 @@
 ---
 title: Right To Work - A Closer Look
 layout: post
+category: post
 ---
 The administration of a union takes time and money. Many unions have implemented contracts that require workers to become a union member and pay mandatory union dues. Right-To-Work laws make it illegal to impose these mandatory union dues. These laws where designed to undermine unions' bargaining strength and their primary focus is to make it harder for a workers' organization to sustain themselves financially.
 

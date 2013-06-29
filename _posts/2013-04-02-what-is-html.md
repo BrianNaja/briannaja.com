@@ -1,6 +1,7 @@
 ---
 title: What is HTML
 layout: post
+category: post
 ---
 HyperText Markup Language (HTML) is the main markup language used for creating web pages. A markup language is a combination of words and symbols that give instructions on the semantics of a document.  For example, `<em>` emphasis,  `<ul>` an unordered list and a `<p>` paragraph all have semantic meaning.
 
