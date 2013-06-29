@@ -6,8 +6,6 @@ layout: post
 
 ###A little about Markdown.  
 
-test
-
 Markdown was created by [John Gruber](http://daringfireball.net) and Aaron Swartz. It is a simplified human readable form of markup that outputs HTML for posting on the web or rich text for sending emails.
 
 Markdown documents are cross-platform by nature, so you can edit them in any text-capable app on any operating system. Howerver, there are apps specifically designed for writing in Markdown.
