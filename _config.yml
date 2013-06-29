@@ -12,4 +12,14 @@ prose:
   
   metadata:
     _posts:
-       title: "categories"
+        - name: "layout"
+        field:
+          element: "text"
+          label: "Post Title"
+          value: "How is your day"
+      
+      - name: "layout"
+        field:
+          element: "text"
+          label: "Layout"
+          value: "post"
