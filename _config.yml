@@ -15,8 +15,3 @@ prose:
         title: "Post Title"
       
         category: "Post Category"
-          element: "select"
-          options:
-          value: "post"
-          value: "video"
-          selected: "post"
