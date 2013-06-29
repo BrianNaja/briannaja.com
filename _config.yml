@@ -12,13 +12,13 @@ prose:
   
   metadata:
     _posts:
-        name: "Post Title"
+        title: "Post Title"
         field:
           element: "text"
           label: "Post Title"
           value: "How is your day"
       
-        name: "Layout"
+        layout: "Layout"
         field:
           element: "text"
           label: "Layout"
