@@ -8,7 +8,6 @@ $charcoal: #292727;
 $alomstwhite: #d1d1d1;
 $green: #63CCB5;
 $red: #D24D33;
-$brightred: #EC3b18;
 $blue: #52C1FF;
 
 /*Variables End*/
@@ -38,19 +37,18 @@ footer, .sticky-footer {
 /*!Fonts & Body*/ 
 
 body {
-    font-family: 'Helvetica', sans-serif;
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
     font-weight: 200;
     font-size: 1.2em;
-    color: $alomstwhite;
-    background: url("images/dark-noise.png");
+    color: $charcoal;
 }
 
 a {
-    color: $blue;
+    color: $red;
 }
 
 a:hover {
-    color: darken($blue, 15%);
+    color: darken($red, 15%);
 }
 
 h2 {
@@ -65,12 +63,16 @@ h2 a {
 }
 
 h2 a:hover {
-    color: $brightred;
+    color: darken($red, 15%);
 }
 
 h3, h4, h5, h6 {
     font-family: 'Ubuntu', sans-serif;
     font-weight: 300;
+}
+
+time {
+  color: lighten($charcoal, 25%);
 }
 
 .word-break {
@@ -82,19 +84,19 @@ h3, h4, h5, h6 {
 /*!Header*/
 
 header {
-    background-color: darken($charcoal, 10%);
+    background-color: $charcoal;
     width: 100%;
-    margin-bottom: 20px;
 }
 
 header h1 {
     font-family: 'Ubuntu', sans-serif;
-    margin: 2px 0px 12px 0px;
+    font-size: 44px;
     font-weight: 300;
+    display: inline-block;
 }
 
 header h1 a, header h1 a:hover {
-    color: $alomstwhite;
+    color: rgba(215,215,215,1);
 }
 
 /*Header End*/
@@ -102,7 +104,7 @@ header h1 a, header h1 a:hover {
 /*!Footer*/
 
 footer {
-    background-color: darken($charcoal, 10%);
+    background-color: $charcoal;
     width: 100%;
     margin-top: 10px;
     padding-top: 10px;
@@ -119,7 +121,7 @@ footer {
 article {
     padding: 8px 0px 12px 0px;
     margin-bottom: 20px;
-    border-bottom: 16px solid $charcoal;
+    border-bottom: 4px solid lighten($charcoal, 25%);
 }
 
 article:nth-child(5) {
@@ -175,14 +177,26 @@ img {
   height: auto;
 }
 
+.skull img {
+  display: inline-block;
+  width: 96px;
+  height: 76px;
+  border-radius: 100%;
+  border: 2px solid #000000;
+  background-color: #000000;
+  box-shadow: 0px 0px 10px lighten($charcoal, 15%);
+  margin: 0px 10px 20px 0px;
+}
+
 /*Article End*/ 
 
 /*Syntax Highlight*/
 
 pre {
-  background-color: darken($charcoal, 10%);
+  background-color: lighten($charcoal, 75%);
   padding: 10px;
   border-radius: 2px;
+  color: $charcoal;
 }
 
 .highlight {
@@ -351,6 +365,16 @@ body {
 
 .lineno {
   padding-right: 16px;
+}
+
+header h1 {
+    font-size: 38px;
+}
+
+.skull img {
+  width: 76px;
+  height: 56px;
+ 
 }
 
 }

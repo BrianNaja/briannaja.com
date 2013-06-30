@@ -20,7 +20,8 @@
 <body>
     <header>
         <div class="row">
-            <div class="twelve columns">
+            <div class="six columns">
+                <a class="skull" href="/"><img src="/images/Skull-bones.jpg"></a>
                 <h1><a href="/">Brian Naja</a></h1>
             </div>
         </div>
@@ -33,300 +34,25 @@
 		  <article>
 		      <h2><a href="/post/a-simple-responsive-css-grid">A Simple Responsive CSS Grid</a></h2>
 		      <p><time datetime="25 June 2013">25 June 2013</time></p>
-					
-
-<div class="highlight"><pre><code class="css"><span class="lineno">  1</span> <span class="o">*</span> <span class="p">{</span> 
-<span class="lineno">  2</span>     <span class="o">-</span><span class="n">moz</span><span class="o">-</span><span class="n">box</span><span class="o">-</span><span class="n">sizing</span><span class="o">:</span> <span class="k">border</span><span class="o">-</span><span class="n">box</span><span class="p">;</span> 
-<span class="lineno">  3</span>     <span class="o">-</span><span class="n">webkit</span><span class="o">-</span><span class="n">box</span><span class="o">-</span><span class="n">sizing</span><span class="o">:</span> <span class="k">border</span><span class="o">-</span><span class="n">box</span><span class="p">;</span> 
-<span class="lineno">  4</span>     <span class="n">box</span><span class="o">-</span><span class="n">sizing</span><span class="o">:</span> <span class="k">border</span><span class="o">-</span><span class="n">box</span><span class="p">;</span> 
-<span class="lineno">  5</span> <span class="p">}</span>
-<span class="lineno">  6</span>   
-<span class="lineno">  7</span>  <span class="nc">.row</span> <span class="p">{</span> 
-<span class="lineno">  8</span>     <span class="k">width</span><span class="o">:</span> <span class="m">1000px</span><span class="p">;</span> 
-<span class="lineno">  9</span>     <span class="k">max-width</span><span class="o">:</span> <span class="m">100</span><span class="o">%</span><span class="p">;</span> 
-<span class="lineno"> 10</span>     <span class="k">min-width</span><span class="o">:</span> <span class="m">768px</span><span class="p">;</span> 
-<span class="lineno"> 11</span>     <span class="k">margin</span><span class="o">:</span> <span class="m">0</span> <span class="k">auto</span><span class="p">;</span> 
-<span class="lineno"> 12</span> <span class="p">}</span>
-<span class="lineno"> 13</span> 
-<span class="lineno"> 14</span> <span class="nc">.column</span><span class="o">,</span> <span class="nc">.columns</span> <span class="p">{</span> 
-<span class="lineno"> 15</span>     <span class="k">float</span><span class="o">:</span> <span class="k">left</span><span class="p">;</span> 
-<span class="lineno"> 16</span>     <span class="k">min-height</span><span class="o">:</span> <span class="m">1px</span><span class="p">;</span> 
-<span class="lineno"> 17</span>     <span class="k">padding</span><span class="o">:</span> <span class="m">0</span> <span class="m">15px</span><span class="p">;</span> 
-<span class="lineno"> 18</span>     <span class="k">position</span><span class="o">:</span> <span class="k">relative</span><span class="p">;</span> 
-<span class="lineno"> 19</span> <span class="p">}</span>
-<span class="lineno"> 20</span> 
-<span class="lineno"> 21</span> <span class="o">[</span><span class="nt">class</span><span class="o">*=</span><span class="s2">&quot;column&quot;</span><span class="o">]</span> <span class="o">+</span> <span class="o">[</span><span class="nt">class</span><span class="o">*=</span><span class="s2">&quot;column&quot;</span><span class="o">]</span><span class="nd">:last-child</span> <span class="p">{</span> 
-<span class="lineno"> 22</span>     <span class="k">float</span><span class="o">:</span> <span class="k">right</span><span class="p">;</span> 
-<span class="lineno"> 23</span> <span class="p">}</span>
-<span class="lineno"> 24</span> 
-<span class="lineno"> 25</span> <span class="o">[</span><span class="nt">class</span><span class="o">*=</span><span class="s2">&quot;column&quot;</span><span class="o">]</span> <span class="o">+</span> <span class="o">[</span><span class="nt">class</span><span class="o">*=</span><span class="s2">&quot;column&quot;</span><span class="o">]</span><span class="nc">.end</span> <span class="p">{</span> 
-<span class="lineno"> 26</span>     <span class="k">float</span><span class="o">:</span> <span class="k">left</span><span class="p">;</span>
-<span class="lineno"> 27</span> <span class="p">}</span>
-<span class="lineno"> 28</span>   
-<span class="lineno"> 29</span> <span class="nc">.row</span> <span class="nc">.one</span> <span class="p">{</span> 
-<span class="lineno"> 30</span>     <span class="k">width</span><span class="o">:</span> <span class="m">8</span><span class="o">.</span><span class="m">33</span><span class="o">%</span><span class="p">;</span> 
-<span class="lineno"> 31</span> <span class="p">}</span>
-<span class="lineno"> 32</span> 
-<span class="lineno"> 33</span> <span class="nc">.row</span> <span class="nc">.two</span> <span class="p">{</span> 
-<span class="lineno"> 34</span>     <span class="k">width</span><span class="o">:</span> <span class="m">16</span><span class="o">.</span><span class="m">66</span><span class="o">%</span><span class="p">;</span> 
-<span class="lineno"> 35</span> <span class="p">}</span>
-<span class="lineno"> 36</span> 
-<span class="lineno"> 37</span> <span class="nc">.row</span> <span class="nc">.three</span> <span class="p">{</span> 
-<span class="lineno"> 38</span>     <span class="k">width</span><span class="o">:</span> <span class="m">25</span><span class="o">%</span><span class="p">;</span>
-<span class="lineno"> 39</span> <span class="p">}</span>
-<span class="lineno"> 40</span> 
-<span class="lineno"> 41</span> <span class="nc">.row</span> <span class="nc">.four</span> <span class="p">{</span>
-<span class="lineno"> 42</span>      <span class="k">width</span><span class="o">:</span> <span class="m">33</span><span class="o">.</span><span class="m">33</span><span class="o">%</span><span class="p">;</span>
-<span class="lineno"> 43</span> <span class="p">}</span>
-<span class="lineno"> 44</span> 
-<span class="lineno"> 45</span> <span class="nc">.row</span> <span class="nc">.five</span> <span class="p">{</span>
-<span class="lineno"> 46</span>  <span class="k">width</span><span class="o">:</span> <span class="m">41</span><span class="o">.</span><span class="m">66</span><span class="o">%</span><span class="p">;</span> 
-<span class="lineno"> 47</span> <span class="p">}</span>
-<span class="lineno"> 48</span> 
-<span class="lineno"> 49</span> <span class="nc">.row</span> <span class="nc">.six</span> <span class="p">{</span> 
-<span class="lineno"> 50</span>     <span class="k">width</span><span class="o">:</span> <span class="m">50</span><span class="o">%</span><span class="p">;</span> 
-<span class="lineno"> 51</span> <span class="p">}</span>
-<span class="lineno"> 52</span> 
-<span class="lineno"> 53</span> <span class="nc">.row</span> <span class="nc">.seven</span> <span class="p">{</span> 
-<span class="lineno"> 54</span>     <span class="k">width</span><span class="o">:</span> <span class="m">58</span><span class="o">.</span><span class="m">33</span><span class="o">%</span><span class="p">;</span> 
-<span class="lineno"> 55</span> <span class="p">}</span>
-<span class="lineno"> 56</span> 
-<span class="lineno"> 57</span> <span class="nc">.row</span> <span class="nc">.eight</span> <span class="p">{</span> 
-<span class="lineno"> 58</span>     <span class="k">width</span><span class="o">:</span> <span class="m">66</span><span class="o">.</span><span class="m">66</span><span class="o">%</span><span class="p">;</span> 
-<span class="lineno"> 59</span> <span class="p">}</span>
-<span class="lineno"> 60</span> 
-<span class="lineno"> 61</span> <span class="nc">.row</span> <span class="nc">.nine</span> <span class="p">{</span> 
-<span class="lineno"> 62</span>     <span class="k">width</span><span class="o">:</span> <span class="m">75</span><span class="o">%</span><span class="p">;</span> 
-<span class="lineno"> 63</span> <span class="p">}</span>
-<span class="lineno"> 64</span> 
-<span class="lineno"> 65</span> <span class="nc">.row</span> <span class="nc">.ten</span> <span class="p">{</span> 
-<span class="lineno"> 66</span>     <span class="k">width</span><span class="o">:</span> <span class="m">83</span><span class="o">.</span><span class="m">33</span><span class="o">%</span><span class="p">;</span> 
-<span class="lineno"> 67</span> <span class="p">}</span>
-<span class="lineno"> 68</span> 
-<span class="lineno"> 69</span> <span class="nc">.row</span> <span class="nc">.eleven</span> <span class="p">{</span> 
-<span class="lineno"> 70</span>     <span class="k">width</span><span class="o">:</span> <span class="m">91</span><span class="o">.</span><span class="m">66</span><span class="o">%</span> <span class="p">;</span>
-<span class="lineno"> 71</span> <span class="p">}</span>
-<span class="lineno"> 72</span> 
-<span class="lineno"> 73</span> <span class="nc">.row</span> <span class="nc">.twelve</span> <span class="p">{</span> 
-<span class="lineno"> 74</span>     <span class="k">width</span><span class="o">:</span> <span class="m">100</span><span class="o">%</span><span class="p">;</span> 
-<span class="lineno"> 75</span> <span class="p">}</span>
-<span class="lineno"> 76</span> 
-<span class="lineno"> 77</span> <span class="nc">.centered</span> <span class="p">{</span> 
-<span class="lineno"> 78</span>     <span class="k">float</span><span class="o">:</span> <span class="k">none</span><span class="p">;</span> 
-<span class="lineno"> 79</span>     <span class="k">margin</span><span class="o">:</span> <span class="m">0</span> <span class="k">auto</span><span class="p">;</span> 
-<span class="lineno"> 80</span> <span class="p">}</span>
-<span class="lineno"> 81</span>   
-<span class="lineno"> 82</span> <span class="nc">.row</span><span class="nd">:before</span><span class="o">,</span> <span class="nc">.row</span><span class="nd">:after</span><span class="o">,</span> <span class="nc">.clearfix</span><span class="nd">:before</span><span class="o">,</span> <span class="nc">.clearfix</span><span class="nd">:after</span> <span class="p">{</span> <span class="c">/*clearfix */</span>
-<span class="lineno"> 83</span>     <span class="k">content</span><span class="o">:</span><span class="s2">&quot;&quot;</span><span class="p">;</span> 
-<span class="lineno"> 84</span>     <span class="k">display</span><span class="o">:</span> <span class="n">table</span><span class="p">;</span> 
-<span class="lineno"> 85</span> <span class="p">}</span>
-<span class="lineno"> 86</span> 
-<span class="lineno"> 87</span> <span class="nc">.row</span><span class="nd">:after</span><span class="o">,</span> <span class="nc">.clearfix</span><span class="nd">:after</span> <span class="p">{</span> 
-<span class="lineno"> 88</span>     <span class="k">clear</span><span class="o">:</span> <span class="k">both</span><span class="p">;</span> 
-<span class="lineno"> 89</span> <span class="p">}</span>
-<span class="lineno"> 90</span> 
-<span class="lineno"> 91</span> <span class="nc">.row</span><span class="o">,</span> <span class="nc">.clearfix</span> <span class="p">{</span>
-<span class="lineno"> 92</span>      <span class="n">zoom</span><span class="o">:</span> <span class="m">1</span><span class="p">;</span> 
-<span class="lineno"> 93</span> <span class="p">}</span>  
-<span class="lineno"> 94</span>   
-<span class="lineno"> 95</span>   <span class="c">/* !Mobile */</span>
-<span class="lineno"> 96</span> <span class="k">@media</span> <span class="nt">only</span> <span class="nt">screen</span> <span class="nt">and</span> <span class="o">(</span><span class="nt">max-width</span><span class="o">:</span> <span class="nt">767px</span><span class="o">)</span> <span class="p">{</span>      
-<span class="lineno"> 97</span>   <span class="nt">body</span> <span class="p">{</span> 
-<span class="lineno"> 98</span>     <span class="o">-</span><span class="n">webkit</span><span class="o">-</span><span class="k">text</span><span class="o">-</span><span class="k">size</span><span class="o">-</span><span class="n">adjust</span><span class="o">:</span> <span class="k">none</span><span class="p">;</span> 
-<span class="lineno"> 99</span>       <span class="o">-</span><span class="n">ms</span><span class="o">-</span><span class="k">text</span><span class="o">-</span><span class="k">size</span><span class="o">-</span><span class="n">adjust</span><span class="o">:</span> <span class="k">none</span><span class="p">;</span> 
-<span class="lineno">100</span>       <span class="k">width</span><span class="o">:</span> <span class="m">100</span><span class="o">%</span><span class="p">;</span> 
-<span class="lineno">101</span>       <span class="k">min-width</span><span class="o">:</span> <span class="m">0</span><span class="p">;</span> 
-<span class="lineno">102</span>       <span class="k">margin-left</span><span class="o">:</span> <span class="m">0</span><span class="p">;</span> 
-<span class="lineno">103</span>       <span class="k">margin-right</span><span class="o">:</span> <span class="m">0</span><span class="p">;</span> 
-<span class="lineno">104</span>       <span class="k">padding-left</span><span class="o">:</span> <span class="m">0</span><span class="p">;</span> 
-<span class="lineno">105</span>       <span class="k">padding-right</span><span class="o">:</span> <span class="m">0</span><span class="p">;</span> 
-<span class="lineno">106</span>   <span class="p">}</span>
-<span class="lineno">107</span>       
-<span class="lineno">108</span>   <span class="nc">.row</span> <span class="p">{</span> 
-<span class="lineno">109</span>     <span class="k">width</span><span class="o">:</span> <span class="k">auto</span><span class="p">;</span> 
-<span class="lineno">110</span>     <span class="k">min-width</span><span class="o">:</span> <span class="m">0</span><span class="p">;</span> 
-<span class="lineno">111</span>     <span class="k">margin-left</span><span class="o">:</span> <span class="m">0</span><span class="p">;</span> 
-<span class="lineno">112</span>     <span class="k">margin-right</span><span class="o">:</span> <span class="m">0</span><span class="p">;</span>
-<span class="lineno">113</span>   <span class="p">}</span>
-<span class="lineno">114</span>       
-<span class="lineno">115</span>   <span class="nc">.column</span><span class="o">,</span> <span class="nc">.columns</span> <span class="p">{</span>
-<span class="lineno">116</span>      <span class="k">width</span><span class="o">:</span> <span class="k">auto</span> <span class="cp">!important</span><span class="p">;</span> 
-<span class="lineno">117</span>      <span class="k">float</span><span class="o">:</span> <span class="k">none</span><span class="p">;</span> 
-<span class="lineno">118</span>   <span class="p">}</span>
-<span class="lineno">119</span>   
-<span class="lineno">120</span>   <span class="nc">.column</span><span class="nd">:last-child</span><span class="o">,</span> <span class="nc">.columns</span><span class="nd">:last-child</span> <span class="p">{</span> 
-<span class="lineno">121</span>     <span class="k">float</span><span class="o">:</span> <span class="k">none</span><span class="p">;</span> 
-<span class="lineno">122</span>   <span class="p">}</span>
-<span class="lineno">123</span>   
-<span class="lineno">124</span>   <span class="o">[</span><span class="nt">class</span><span class="o">*=</span><span class="s2">&quot;column&quot;</span><span class="o">]</span> <span class="o">+</span> <span class="o">[</span><span class="nt">class</span><span class="o">*=</span><span class="s2">&quot;column&quot;</span><span class="o">]</span><span class="nd">:last-child</span> <span class="p">{</span> 
-<span class="lineno">125</span>     <span class="k">float</span><span class="o">:</span> <span class="k">none</span><span class="p">;</span> 
-<span class="lineno">126</span>   <span class="p">}</span>
-<span class="lineno">127</span>   
-<span class="lineno">128</span>   <span class="nc">.column</span><span class="nd">:before</span><span class="o">,</span> <span class="nc">.columns</span><span class="nd">:before</span><span class="o">,</span> <span class="nc">.column</span><span class="nd">:after</span><span class="o">,</span> <span class="nc">.columns</span><span class="nd">:after</span> <span class="p">{</span> 
-<span class="lineno">129</span>     <span class="k">content</span><span class="o">:</span><span class="s2">&quot;&quot;</span><span class="p">;</span> 
-<span class="lineno">130</span>     <span class="k">display</span><span class="o">:</span><span class="n">table</span><span class="p">;</span> 
-<span class="lineno">131</span>   <span class="p">}</span>
-<span class="lineno">132</span>   
-<span class="lineno">133</span>   <span class="nc">.column</span><span class="nd">:after</span><span class="o">,</span> <span class="nc">.columns</span><span class="nd">:after</span> <span class="p">{</span> 
-<span class="lineno">134</span>   <span class="k">clear</span><span class="o">:</span> <span class="k">both</span><span class="p">;</span> 
-<span class="lineno">135</span>   <span class="p">}</span>
-<span class="lineno">136</span> <span class="p">}</span>
-</code></pre></div>
-
-
-
-
-					<!-- <div class="highlight"><pre><code class="css"><span class="lineno"> 1</span> <span class="o">*</span> <span class="p">{</span> <span class="lineno"> 2</span> <span class="o">-</span><span class="n">moz</span><span class="o">-</span><span class="n">box</span><span class="o">-</span><span class="n">sizing</span><span class="o">:</span> <span class="k">border</span><span class="o">-</span><span class="n">box</span><span class="p">;</span> <span class="lineno"> 3</span> <span class="o">-</span><span class="n">webkit</span><span class="o">-</span><span class="n">box</span><span class="o">-</span><span class="n">sizing</span><span class="o">:</span> <span class="k">border</span><span class="o">-</span><span class="n">box</span><span class="p">;</span> <span class="lineno"> 4</span> <span class="n">box</span><span class="o">-</span><span class="n">sizing</span><span class="o">:</span> <span class="k">border</span><span class="o">-</span><span class="n">box</span><span class="p">;</span> <span class="lineno"> 5</span> <span class="p">}</span> <span class="lineno"> 6</span> <span class="lineno"> 7</span> <span class="nc">.row</span> <span class="p">{</span> <span class="lineno"> 8</span> <span class="k">width</span><span class="o">:</span> <span class="m">1000px</span><span class="p">;</span> <span class="lineno"> 9</span> <span class="k">max-width</span><span class="o">:</span> <span class="m">100</span><span class="o">%</span><span class="p">;</span> <span class="lineno"> 10</span> <span class="k">min-width</span><span class="o">:</span> <span class="m">768px</span><span class="p">;</span> <span class="lineno"> 11</span> <span class="k">margin</span><span class="o">:</span> <span class="m">0</span> <span class="k">auto</span><span class="p">;</span> <span class="lineno"> 12</span> <span class="p">}</span> <span class="lineno"> 13</span> <span class="lineno"> 14</span> <span class="nc">.column</span><span class="o">,</span> <span class="nc">.columns</span> <span class="p">{</span> <span class="lineno"> 15</span> <span class="k">float</span><span class="o">:</span> <span class="k">left</span><span class="p">;</span> <span class="lineno"> 16</span> <span class="k">min-height</span><span class="o">:</span> <span class="m">1px</span><span class="p">;</span> <span class="lineno"> 17</span> <span class="k">padding</span><span class="o">:</span>... 
+					<div class="highlight"><pre><code class="css"><span class="lineno"> 1</span> <span class="o">*</span> <span class="p">{</span> <span class="lineno"> 2</span> <span class="o">-</span><span class="n">moz</span><span class="o">-</span><span class="n">box</span><span class="o">-</span><span class="n">sizing</span><span class="o">:</span> <span class="k">border</span><span class="o">-</span><span class="n">box</span><span class="p">;</span> <span class="lineno"> 3</span> <span class="o">-</span><span class="n">webkit</span><span class="o">-</span><span class="n">box</span><span class="o">-</span><span class="n">sizing</span><span class="o">:</span> <span class="k">border</span><span class="o">-</span><span class="n">box</span><span class="p">;</span> <span class="lineno"> 4</span> <span class="n">box</span><span class="o">-</span><span class="n">sizing</span><span class="o">:</span> <span... 
 					<br>
-					<p><a href="/post/a-simple-responsive-css-grid">Read More &rarr;</a></p>-->
+					<p><a href="/post/a-simple-responsive-css-grid">Read More &rarr;</a></p>
 		  </article>
 		  
 		  <article>
 		      <h2><a href="/post/markdown-cheat-sheet">Markdown Cheat Sheet</a></h2>
 		      <p><time datetime="17 June 2013">17 June 2013</time></p>
-					<h3>A little about Markdown.</h3>
-
-<p>Markdown was created by <a href="http://daringfireball.net">John Gruber</a> and Aaron Swartz. It is a simplified human readable form of markup that outputs HTML for posting on the web or rich text for sending emails.</p>
-
-<p>Markdown documents are cross-platform by nature, so you can edit them in any text-capable app on any operating system. Howerver, there are apps specifically designed for writing in Markdown.</p>
-
-<div class="video">
-<iframe src="http://player.vimeo.com/video/55297514?byline=0&amp;portrait=0" width="500" height="281" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe> 
-</div>
-
-
-<p><a href="http://vimeo.com/55297514">Why Markdown Matters</a> from <a href="http://vimeo.com/mathewmitchell">Mathew Mitchell</a> on <a href="http://vimeo.com">Vimeo</a>.</p>
-
-
-<hr />
-
-<h3>The Markdown Syntax</h3>
-
-<p><strong>Headers</strong></p>
-
-<pre><code># Header 1
-## Header 2
-### Header 3
-#### Header 4
-##### Header 5
-###### Header 6
-</code></pre>
-
-<p><strong>Header with a link.</strong></p>
-
-<pre><code>[Link back to H2](#id-goes-here)
-</code></pre>
-
-<p><strong>Paragraph</strong></p>
-
-<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry&rsquo;s standard dummy text ever since the 1500s.</p>
-
-<p>To create a line break, end a line in a paragraph with two or more spaces.<br/>
-I am a sentence with<br/>
-a line break.</p>
-
-<p><strong>Link</strong></p>
-
-<pre><code>[Google](http://google.com)
-</code></pre>
-
-<p><strong>Inline markup</strong></p>
-
-<pre><code>_italics_
-**bold**
-`code()`
-Note that underscores in words are ignored in Markdown.
-</code></pre>
-
-<p><strong>Images</strong></p>
-
-<pre><code>![picture alt](/images/photo.jpeg "Title is optional")   
-</code></pre>
-
-<p><strong>Blockquotes</strong></p>
-
-<pre><code>&gt; Blockquotes are like quoted text in email replies
-&gt;&gt; And, they can be nested
-</code></pre>
-
-<p><strong>Lists</strong></p>
-
-<pre><code>* Bullet lists are easy too
-- Another one
-+ Another one
-
-1. A numbered list
-2. Which is numbered
-3. With periods and a space
-</code></pre>
-
-<p><strong>Code</strong></p>
-
-<p>Indent with four spaces to creat a code block.<br/>
-This is a normal paragraph.</p>
-
-<pre><code>This is a code block 
-</code></pre>
-
-<p><strong>Horizontal rules</strong></p>
-
-<pre><code>* * * *
-****
---------------------------
-</code></pre>
-
-<p><strong>Markdown plus tables</strong></p>
-
-<p>Outer pipes on tables are optional<br/>
-Colon used for alignment (right versus left)</p>
-
-<pre><code>| Header | Header | Right  |
-| ------ | ------ | -----: |
-|  Cell  |  Cell  |   $10  |
-|  Cell  |  Cell  |   $20  |
-</code></pre>
-
-<p><strong>Markdown plus definition lists</strong></p>
-
-<pre><code>Term
-: Definition
-</code></pre>
-
-<p>Multiple definitions and terms are possible</p>
-
-<pre><code>Apple
-: Pomaceous fruit of plants of the genus Malus.
-: An american computer company.
-</code></pre>
-
-					<!-- <h3>A little about Markdown.</h3> <p>Markdown was created by <a href="http://daringfireball.net">John Gruber</a> and Aaron Swartz. It is a simplified human readable form of markup that outputs HTML for posting on the web or rich text for sending emails.</p> <p>Markdown documents are cross-platform by nature, so you can edit them in any text-capable app on any operating system. Howerver, there are apps specifically designed for writing in Markdown.</p> <div class="video"> <iframe src="http://player.vimeo.com/video/55297514?byline=0&amp;portrait=0" width="500" height="281" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe> </div> <p><a href="http://vimeo.com/55297514">Why Markdown Matters</a> from <a href="http://vimeo.com/mathewmitchell">Mathew Mitchell</a> on <a href="http://vimeo.com">Vimeo</a>.</p> <hr /> <h3>The Markdown Syntax</h3> <p><strong>Headers</strong></p> <pre><code># Header 1 ## Header 2 ### Header 3 #### Header 4 ##### Header 5 ###### Header 6 </code></pre> <p><strong>Header with a link.</strong></p> <pre><code>[Link back to H2](#id-goes-here) </code></pre> <p><strong>Paragraph</strong></p> <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry&rsquo;s standard dummy text ever since the 1500s.</p> <p>To create... 
+					<h3>A little about Markdown.</h3> <p>Markdown was created by <a href="http://daringfireball.net">John Gruber</a> and Aaron Swartz. It is a simplified human readable form of markup that outputs HTML for posting on the web or rich text for sending emails.</p> <p>Markdown documents are cross-platform by nature, so you can edit them in any... 
 					<br>
-					<p><a href="/post/markdown-cheat-sheet">Read More &rarr;</a></p>-->
+					<p><a href="/post/markdown-cheat-sheet">Read More &rarr;</a></p>
 		  </article>
 		  
 		  <article>
 		      <h2><a href="/video/gary-kovacs-tracking-the-trackers">Gary Kovacs - Tracking the trackers</a></h2>
 		      <p><time datetime="09 June 2013">09 June 2013</time></p>
-					<div class="video">
-<iframe src="http://player.vimeo.com/video/67992191" width="500" height="281" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe> 
-</div>
-
-
-<p>Gary Kovacs is the CEO of <a href="http://www.mozilla.org/en-US/" title="Mozilla">Mozilla Corporation</a> the people who made Firefox.</p>
-
-<p>Collusion is an experimental add-on for Firefox and allows you to see all the third parties that are tracking your movements across the Web. It will show, in real time, how that data creates a spider-web of interaction between companies and other trackers.</p>
-
-					<!-- <div class="video">
-<iframe src="http://player.vimeo.com/video/67992191" width="500" height="281" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe> 
-</div>
-
-
-<p>Gary Kovacs is the CEO of <a href="http://www.mozilla.org/en-US/" title="Mozilla">Mozilla Corporation</a> the people who made Firefox.</p>
-
-<p>Collusion is an experimental add-on for Firefox and allows you to see all the third parties that are tracking your movements across the Web. It will show, in real time, how that data creates a spider-web of interaction between companies and other trackers.</p>
- 
+					<div class="video"> <iframe src="http://player.vimeo.com/video/67992191" width="500" height="281" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe> </div> <p>Gary Kovacs is the CEO of <a href="http://www.mozilla.org/en-US/" title="Mozilla">Mozilla Corporation</a> the people who made Firefox.</p> <p>Collusion is an experimental add-on for Firefox and allows you to see all the third parties that are tracking your movements across the Web.... 
 					<br>
-					<p><a href="/video/gary-kovacs-tracking-the-trackers">Read More &rarr;</a></p>-->
+					<p><a href="/video/gary-kovacs-tracking-the-trackers">Read More &rarr;</a></p>
 		  </article>
 		  
 		  <article>
@@ -352,30 +78,9 @@ Colon used for alignment (right versus left)</p>
 
 
 
-
-					<!-- <div class="gallery">
-        <p><a href="/images/boilermaking-photos/full/bm1.jpg"><img src="/images/boilermaking-photos/thumb/bm1.jpg"/></a></p>
-        <p><a href="/images/boilermaking-photos/full/bm2.jpg"><img src="/images/boilermaking-photos/thumb/bm2.jpg"/></a></p>
-        <p><a href="/images/boilermaking-photos/full/bm3.jpg"><img src="/images/boilermaking-photos/thumb/bm3.jpg"/></a></p>
-        <p><a href="/images/boilermaking-photos/full/bm4.jpg"><img src="/images/boilermaking-photos/thumb/bm4.jpg"/></a></p>
-        <p><a href="/images/boilermaking-photos/full/bm5.jpg"><img src="/images/boilermaking-photos/thumb/bm5.jpg"/></a></p>
-        <p><a href="/images/boilermaking-photos/full/bm6.jpg"><img src="/images/boilermaking-photos/thumb/bm6.jpg"/></a></p>
-        <p><a href="/images/boilermaking-photos/full/bm7.jpg"><img src="/images/boilermaking-photos/thumb/bm7.jpg"/></a></p>
-        <p><a href="/images/boilermaking-photos/full/bm8.jpg"><img src="/images/boilermaking-photos/thumb/bm8.jpg"/></a></p>
-        <p><a href="/images/boilermaking-photos/full/bm9.jpg"><img src="/images/boilermaking-photos/thumb/bm9.jpg"/></a></p>
-        <p><a href="/images/boilermaking-photos/full/bm10.jpg"><img src="/images/boilermaking-photos/thumb/bm10.jpg"/></a></p>
-        <p><a href="/images/boilermaking-photos/full/bm11.jpg"><img src="/images/boilermaking-photos/thumb/bm11.jpg"/></a></p>
-        <p><a href="/images/boilermaking-photos/full/bm12.jpg"><img src="/images/boilermaking-photos/thumb/bm12.jpg"/></a></p>
-        <p><a href="/images/boilermaking-photos/full/bm13.jpg"><img src="/images/boilermaking-photos/thumb/bm13.jpg"/></a></p>
-        <p><a href="/images/boilermaking-photos/full/bm14.jpg"><img src="/images/boilermaking-photos/thumb/bm14.jpg"/></a></p>
-        <p><a href="/images/boilermaking-photos/full/bm15.jpg"><img src="/images/boilermaking-photos/thumb/bm15.jpg"/></a></p>
-</div>
-
-
-
  
 					<br>
-					<p><a href="/post/boilermaking-photos">Read More &rarr;</a></p>-->
+					<p><a href="/post/boilermaking-photos">Read More &rarr;</a></p>
 		  </article>
 		  
 		  <article>
@@ -385,14 +90,9 @@ Colon used for alignment (right versus left)</p>
 <iframe src="http://player.vimeo.com/video/65018112" width="500" height="308" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
 </div>
 
-
-					<!-- <div class="video">
-<iframe src="http://player.vimeo.com/video/65018112" width="500" height="308" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
-</div>
-
  
 					<br>
-					<p><a href="/video/view-from-the-ISS-at-Night">Read More &rarr;</a></p>-->
+					<p><a href="/video/view-from-the-ISS-at-Night">Read More &rarr;</a></p>
 		  </article>
 		  
 		  <div class="pagination">
