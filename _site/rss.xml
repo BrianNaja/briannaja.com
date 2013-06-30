@@ -6,8 +6,8 @@
     <atom:link href="http://briannaja/rss.xml" rel="self" type="application/rss+xml" />
     <description>Brian Naja's Blog</description>
     <language>en-us</language>
-    <pubDate>Sun, 30 Jun 2013 16:12:34 -0400</pubDate>
-    <lastBuildDate>Sun, 30 Jun 2013 16:12:34 -0400</lastBuildDate>
+    <pubDate>Sun, 30 Jun 2013 17:22:49 -0400</pubDate>
+    <lastBuildDate>Sun, 30 Jun 2013 17:22:49 -0400</lastBuildDate>
  
     
     <item>
@@ -307,26 +307,26 @@ Colon used for alignment (right versus left)&lt;/p&gt;
       <pubDate>Sat, 25 May 2013 00:00:00 -0400</pubDate>
       <author>Brian Naja</author>
       <guid>http://functionn.github.com/post/boilermaking-photos</guid>
-      <description>&lt;div class=&quot;gallery&quot;&gt;
-        &lt;p&gt;&lt;a href=&quot;/images/boilermaking-photos/full/bm1.jpg&quot;&gt;&lt;img src=&quot;/images/boilermaking-photos/thumb/bm1.jpg&quot;/&gt;&lt;/a&gt;&lt;/p&gt;
-        &lt;p&gt;&lt;a href=&quot;/images/boilermaking-photos/full/bm2.jpg&quot;&gt;&lt;img src=&quot;/images/boilermaking-photos/thumb/bm2.jpg&quot;/&gt;&lt;/a&gt;&lt;/p&gt;
-        &lt;p&gt;&lt;a href=&quot;/images/boilermaking-photos/full/bm3.jpg&quot;&gt;&lt;img src=&quot;/images/boilermaking-photos/thumb/bm3.jpg&quot;/&gt;&lt;/a&gt;&lt;/p&gt;
-        &lt;p&gt;&lt;a href=&quot;/images/boilermaking-photos/full/bm4.jpg&quot;&gt;&lt;img src=&quot;/images/boilermaking-photos/thumb/bm4.jpg&quot;/&gt;&lt;/a&gt;&lt;/p&gt;
-        &lt;p&gt;&lt;a href=&quot;/images/boilermaking-photos/full/bm5.jpg&quot;&gt;&lt;img src=&quot;/images/boilermaking-photos/thumb/bm5.jpg&quot;/&gt;&lt;/a&gt;&lt;/p&gt;
-        &lt;p&gt;&lt;a href=&quot;/images/boilermaking-photos/full/bm6.jpg&quot;&gt;&lt;img src=&quot;/images/boilermaking-photos/thumb/bm6.jpg&quot;/&gt;&lt;/a&gt;&lt;/p&gt;
-        &lt;p&gt;&lt;a href=&quot;/images/boilermaking-photos/full/bm7.jpg&quot;&gt;&lt;img src=&quot;/images/boilermaking-photos/thumb/bm7.jpg&quot;/&gt;&lt;/a&gt;&lt;/p&gt;
-        &lt;p&gt;&lt;a href=&quot;/images/boilermaking-photos/full/bm8.jpg&quot;&gt;&lt;img src=&quot;/images/boilermaking-photos/thumb/bm8.jpg&quot;/&gt;&lt;/a&gt;&lt;/p&gt;
-        &lt;p&gt;&lt;a href=&quot;/images/boilermaking-photos/full/bm9.jpg&quot;&gt;&lt;img src=&quot;/images/boilermaking-photos/thumb/bm9.jpg&quot;/&gt;&lt;/a&gt;&lt;/p&gt;
-        &lt;p&gt;&lt;a href=&quot;/images/boilermaking-photos/full/bm10.jpg&quot;&gt;&lt;img src=&quot;/images/boilermaking-photos/thumb/bm10.jpg&quot;/&gt;&lt;/a&gt;&lt;/p&gt;
-        &lt;p&gt;&lt;a href=&quot;/images/boilermaking-photos/full/bm11.jpg&quot;&gt;&lt;img src=&quot;/images/boilermaking-photos/thumb/bm11.jpg&quot;/&gt;&lt;/a&gt;&lt;/p&gt;
-        &lt;p&gt;&lt;a href=&quot;/images/boilermaking-photos/full/bm12.jpg&quot;&gt;&lt;img src=&quot;/images/boilermaking-photos/thumb/bm12.jpg&quot;/&gt;&lt;/a&gt;&lt;/p&gt;
-        &lt;p&gt;&lt;a href=&quot;/images/boilermaking-photos/full/bm13.jpg&quot;&gt;&lt;img src=&quot;/images/boilermaking-photos/thumb/bm13.jpg&quot;/&gt;&lt;/a&gt;&lt;/p&gt;
-        &lt;p&gt;&lt;a href=&quot;/images/boilermaking-photos/full/bm14.jpg&quot;&gt;&lt;img src=&quot;/images/boilermaking-photos/thumb/bm14.jpg&quot;/&gt;&lt;/a&gt;&lt;/p&gt;
-        &lt;p&gt;&lt;a href=&quot;/images/boilermaking-photos/full/bm15.jpg&quot;&gt;&lt;img src=&quot;/images/boilermaking-photos/thumb/bm15.jpg&quot;/&gt;&lt;/a&gt;&lt;/p&gt;
+      <description>&lt;div class=&quot;gallery&quot;&gt;                                                                                           
+        &lt;li&gt;&lt;a href=&quot;/images/boilermaking-photos/full/bm1.jpg&quot;&gt;&lt;img src=&quot;/images/boilermaking-photos/thumb/bm1.jpg&quot; alt=&quot;Image 001&quot;/&gt;&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&quot;/images/boilermaking-photos/full/bm2.jpg&quot;&gt;&lt;img src=&quot;/images/boilermaking-photos/thumb/bm2.jpg&quot; alt=&quot;Image 002&quot;/&gt;&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&quot;/images/boilermaking-photos/full/bm3.jpg&quot;&gt;&lt;img src=&quot;/images/boilermaking-photos/thumb/bm3.jpg&quot; alt=&quot;Image 003&quot;/&gt;&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&quot;/images/boilermaking-photos/full/bm4.jpg&quot;&gt;&lt;img src=&quot;/images/boilermaking-photos/thumb/bm4.jpg&quot; alt=&quot;Image 004&quot;/&gt;&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&quot;/images/boilermaking-photos/full/bm5.jpg&quot;&gt;&lt;img src=&quot;/images/boilermaking-photos/thumb/bm5.jpg&quot; alt=&quot;Image 005&quot;/&gt;&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&quot;/images/boilermaking-photos/full/bm6.jpg&quot;&gt;&lt;img src=&quot;/images/boilermaking-photos/thumb/bm6.jpg&quot; alt=&quot;Image 006&quot;/&gt;&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&quot;/images/boilermaking-photos/full/bm7.jpg&quot;&gt;&lt;img src=&quot;/images/boilermaking-photos/thumb/bm7.jpg&quot; alt=&quot;Image 007&quot;/&gt;&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&quot;/images/boilermaking-photos/full/bm8.jpg&quot;&gt;&lt;img src=&quot;/images/boilermaking-photos/thumb/bm8.jpg&quot; alt=&quot;Image 008&quot;/&gt;&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&quot;/images/boilermaking-photos/full/bm9.jpg&quot;&gt;&lt;img src=&quot;/images/boilermaking-photos/thumb/bm9.jpg&quot; alt=&quot;Image 009&quot;/&gt;&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&quot;/images/boilermaking-photos/full/bm10.jpg&quot;&gt;&lt;img src=&quot;/images/boilermaking-photos/thumb/bm10.jpg&quot; alt=&quot;Image 010&quot;/&gt;&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&quot;/images/boilermaking-photos/full/bm11.jpg&quot;&gt;&lt;img src=&quot;/images/boilermaking-photos/thumb/bm11.jpg&quot; alt=&quot;Image 011&quot;/&gt;&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&quot;/images/boilermaking-photos/full/bm12.jpg&quot;&gt;&lt;img src=&quot;/images/boilermaking-photos/thumb/bm12.jpg&quot; alt=&quot;Image 012&quot;/&gt;&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&quot;/images/boilermaking-photos/full/bm13.jpg&quot;&gt;&lt;img src=&quot;/images/boilermaking-photos/thumb/bm13.jpg&quot; alt=&quot;Image 013&quot;/&gt;&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&quot;/images/boilermaking-photos/full/bm14.jpg&quot;&gt;&lt;img src=&quot;/images/boilermaking-photos/thumb/bm14.jpg&quot; alt=&quot;Image 014&quot;/&gt;&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&quot;/images/boilermaking-photos/full/bm15.jpg&quot;&gt;&lt;img src=&quot;/images/boilermaking-photos/thumb/bm15.jpg&quot; alt=&quot;Image 015&quot;/&gt;&lt;/a&gt;&lt;/li&gt;
 &lt;/div&gt;
 
 
-
+&lt;p&gt;&lt;/p&gt;
 </description>
     </item>
     
