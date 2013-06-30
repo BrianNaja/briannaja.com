@@ -488,6 +488,7 @@ footer, .sticky-footer {
 /*Sticky Footer End*/
 /*Fonts & Body*/
 body {
+<<<<<<< Updated upstream
   font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
   font-weight: 200;
   font-size: 1.2em;
@@ -498,6 +499,19 @@ a {
 
 a:hover {
   color: #973521; }
+=======
+  font-family: 'Helvetica', sans-serif;
+  font-weight: 200;
+  font-size: 1.2em;
+  color: #d1d1d1;
+  background: url("images/dark-noise.png"); }
+
+a {
+  color: #52c1ff; }
+
+a:hover {
+  color: #05a6ff; }
+>>>>>>> Stashed changes
 
 h2 {
   font-family: 'Ubuntu', sans-serif;
@@ -509,21 +523,29 @@ h2 a {
   color: #d24d33; }
 
 h2 a:hover {
+<<<<<<< Updated upstream
   color: #973521; }
+=======
+  color: #ec3b18; }
+>>>>>>> Stashed changes
 
 h3, h4, h5, h6 {
   font-family: 'Ubuntu', sans-serif;
   font-weight: 300; }
 
+<<<<<<< Updated upstream
 time {
   color: #6a6565; }
 
+=======
+>>>>>>> Stashed changes
 .word-break {
   word-break: break-all; }
 
 /*Fonts & Body End*/
 /*Header*/
 header {
+<<<<<<< Updated upstream
   background-color: #292727;
   width: 100%; }
 
@@ -535,11 +557,28 @@ header h1 {
 
 header h1 a, header h1 a:hover {
   color: #d7d7d7; }
+=======
+  background-color: #0f0e0e;
+  width: 100%;
+  margin-bottom: 20px; }
+
+header h1 {
+  font-family: 'Ubuntu', sans-serif;
+  margin: 2px 0px 12px 0px;
+  font-weight: 300; }
+
+header h1 a, header h1 a:hover {
+  color: #d1d1d1; }
+>>>>>>> Stashed changes
 
 /*Header End*/
 /*Footer*/
 footer {
+<<<<<<< Updated upstream
   background-color: #292727;
+=======
+  background-color: #0f0e0e;
+>>>>>>> Stashed changes
   width: 100%;
   margin-top: 10px;
   padding-top: 10px; }
@@ -552,7 +591,11 @@ footer {
 article {
   padding: 8px 0px 12px 0px;
   margin-bottom: 20px;
+<<<<<<< Updated upstream
   border-bottom: 4px solid #6a6565; }
+=======
+  border-bottom: 16px solid #292727; }
+>>>>>>> Stashed changes
 
 article:nth-child(5) {
   border-bottom: none; }
@@ -596,6 +639,7 @@ img {
   width: 100%;
   height: auto; }
 
+<<<<<<< Updated upstream
 .skull img {
   display: inline-block;
   width: 96px;
@@ -613,6 +657,14 @@ pre {
   padding: 10px;
   border-radius: 2px;
   color: #292727; }
+=======
+/*Article End*/
+/*Syntax Highlight*/
+pre {
+  background-color: #0f0e0e;
+  padding: 10px;
+  border-radius: 2px; }
+>>>>>>> Stashed changes
 
 .highlight {
   font-size: 0.9em; }
@@ -738,6 +790,7 @@ td, th {
     margin: 0px 0px 16px 0px; }
 
   .lineno {
+<<<<<<< Updated upstream
     padding-right: 16px; }
 
   header h1 {
@@ -746,6 +799,9 @@ td, th {
   .skull img {
     width: 76px;
     height: 56px; } }
+=======
+    padding-right: 16px; } }
+>>>>>>> Stashed changes
 /*Tables End*/
 .hll {
   background-color: #ffffcc; }
@@ -875,7 +931,11 @@ td, th {
 
 /* Name.Builtin */
 .nc {
+<<<<<<< Updated upstream
   color: #2a2929;
+=======
+  color: #d2d0d0;
+>>>>>>> Stashed changes
   font-weight: normal; }
 
 /* Name.Class */
