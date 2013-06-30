@@ -6,13 +6,8 @@
     <atom:link href="http://briannaja/rss.xml" rel="self" type="application/rss+xml" />
     <description>Brian Naja's Blog</description>
     <language>en-us</language>
-<<<<<<< Updated upstream
-    <pubDate>Sun, 30 Jun 2013 15:42:04 -0400</pubDate>
-    <lastBuildDate>Sun, 30 Jun 2013 15:42:04 -0400</lastBuildDate>
-=======
-    <pubDate>Sun, 30 Jun 2013 15:44:15 -0400</pubDate>
-    <lastBuildDate>Sun, 30 Jun 2013 15:44:15 -0400</lastBuildDate>
->>>>>>> Stashed changes
+    <pubDate>Sun, 30 Jun 2013 16:01:40 -0400</pubDate>
+    <lastBuildDate>Sun, 30 Jun 2013 16:01:40 -0400</lastBuildDate>
  
     
     <item>
