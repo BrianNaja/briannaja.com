@@ -291,8 +291,7 @@ td, th {
 .countdown {
   font-size: 2em;
   font-family: 'Ubuntu', sans-serif;
-  color: $alomstwhite;
-  text-shadow: 2px 2px 2px black
+  text-shadow: 1px 1px 3px rgb(100,42,42)
 }
 
 .countdown p {
@@ -324,7 +323,7 @@ td, th {
 
 .little {
   font-size: 0.65em;
-  color: $blue;
+  color: lighten($charcoal, 15%);
 }
 /*!Countdown End*/
 
