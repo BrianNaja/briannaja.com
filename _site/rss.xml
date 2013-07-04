@@ -6,16 +6,35 @@
     <atom:link href="http://briannaja/rss.xml" rel="self" type="application/rss+xml" />
     <description>Brian Naja's Blog</description>
     <language>en-us</language>
-    <pubDate>Tue, 02 Jul 2013 17:21:48 -0400</pubDate>
-    <lastBuildDate>Tue, 02 Jul 2013 17:21:48 -0400</lastBuildDate>
+    <pubDate>Wed, 03 Jul 2013 20:41:18 -0400</pubDate>
+    <lastBuildDate>Wed, 03 Jul 2013 20:41:18 -0400</lastBuildDate>
  
     
     <item>
+      <title>The World's Most Advanced Prosthetic Limb</title>
+      <link>http://briannaja.com/post/the-world%27s-most-advanced-prosthetic-limb</link>
+      <pubDate>Wed, 03 Jul 2013 00:00:00 -0400</pubDate>
+      <author>Brian Naja</author>
+      <guid>http://functionn.github.com/post/the-world's-most-advanced-prosthetic-limb</guid>
+      <description>&lt;div class=&quot;video&quot;&gt;
+&lt;iframe src=&quot;http://player.vimeo.com/video/69663627&quot; width=&quot;500&quot; height=&quot;281&quot; frameborder=&quot;0&quot; webkitAllowFullScreen mozallowfullscreen allowFullScreen&gt;&lt;/iframe&gt; 
+&lt;/div&gt;
+
+
+&lt;p&gt;Nigel Ackland lost his right arm in an industrial accident about six years ago. Throughout months of surgeries, and with only an awkward hook to replace his hand, Ackland fell into a very dark emotional state.&lt;/p&gt;
+
+&lt;p&gt;Early last year, his luck took quite a turn when he was asked to participate in a trial for the Bebionic3, a state-of-the-art prosthetic arm developed by &lt;a href=&quot;http://bebionic.com/the_hand/patient_stories/nigel_ackland&quot;&gt;RSLSteeper&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Source: &lt;a href=&quot;http://thenextweb.com/insider/2013/06/30/a-bionic-arm-gives-life-back-to-a-deserving-man/?fromcat=all&quot;&gt;The Next Web&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>A Simple Responsive CSS Grid</title>
-      <link>http://briannaja.com/post/a-simple-responsive-css-grid</link>
+      <link>http://briannaja.com/post/a-simple-responsive-css-grid+copy</link>
       <pubDate>Tue, 25 Jun 2013 00:00:00 -0400</pubDate>
       <author>Brian Naja</author>
-      <guid>http://functionn.github.com/post/a-simple-responsive-css-grid</guid>
+      <guid>http://functionn.github.com/post/a-simple-responsive-css-grid copy</guid>
       <description>
 
 &lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;css&quot;&gt;&lt;span class=&quot;lineno&quot;&gt;  1&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;*&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt; 
