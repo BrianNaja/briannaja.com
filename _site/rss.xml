@@ -6,9 +6,136 @@
     <atom:link href="http://briannaja/rss.xml" rel="self" type="application/rss+xml" />
     <description>Brian Naja's Blog</description>
     <language>en-us</language>
-    <pubDate>Wed, 03 Jul 2013 20:41:18 -0400</pubDate>
-    <lastBuildDate>Wed, 03 Jul 2013 20:41:18 -0400</lastBuildDate>
+    <pubDate>Sun, 14 Jul 2013 08:42:35 -0400</pubDate>
+    <lastBuildDate>Sun, 14 Jul 2013 08:42:35 -0400</lastBuildDate>
  
+    
+    <item>
+      <title>Terminal Cheat Sheet</title>
+      <link>http://briannaja.com/post/terminal-cheat-sheet</link>
+      <pubDate>Sat, 13 Jul 2013 00:00:00 -0400</pubDate>
+      <author>Brian Naja</author>
+      <guid>http://functionn.github.com/post/terminal-cheat-sheet</guid>
+      <description>&lt;p&gt;&lt;img src=&quot;/images/terminal/terminal.png&quot; title=&quot;Mac OS X Terminal&quot; alt=&quot;terminal&quot; /&gt;&lt;/p&gt;
+
+&lt;h3&gt;OS X&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;cd&lt;/code&gt;  - Directory&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;clear&lt;/code&gt; - Clear terminal screen&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;exit&lt;/code&gt; - Exit the shell&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;li&lt;/code&gt; - List files in long format, showing invisible files (ls -la)&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;mv&lt;/code&gt; - Move or rename files or directories (mv [options] source target)&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;rmdir&lt;/code&gt; - Remove folder&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;rm -R&lt;/code&gt; - Delete folder&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;pwd&lt;/code&gt; - Print Working Directory&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;sudo&lt;/code&gt; - Execute a command as another user&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;mkdir ~/Hello-World&lt;/code&gt; - Creates a directory for your project called &amp;ldquo;Hello-World&amp;rdquo; in your user directory&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;cd ~/Hello-World&lt;/code&gt; - Changes the current working directory to your newly created directory&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;touch README&lt;/code&gt; - Creates a file called &amp;ldquo;README&amp;rdquo; in your Hello-World directory&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;ls&lt;/code&gt; - List files&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;ls -a&lt;/code&gt; - List all files&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;pico &amp;lt;-file-&amp;gt;&lt;/code&gt; - To open and edit file&lt;/li&gt;
+&lt;/ul&gt;
+
+
+&lt;p&gt;LInks: &lt;a href=&quot;http://ss64.com/osx/&quot;&gt;An A-Z Index of the Apple OS X command line&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3&gt;Rails&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;rails s&lt;/code&gt; - Starts server&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;control+c&lt;/code&gt; - Stops server&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;rails c&lt;/code&gt; - Starts console&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;ctrl d&lt;/code&gt; - Exits console&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;exit&lt;/code&gt; - Exits console&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;rails destroy controller controller_name views_name&lt;/code&gt; - Destroy&amp;rsquo;s controller, views, helpers, tests and assets&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;rails destroy scaffold scafold_name&lt;/code&gt; - Destroy&amp;rsquo;s scafold&lt;/li&gt;
+&lt;/ul&gt;
+
+
+&lt;h3&gt;Jekyll&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;ctrl +c&lt;/code&gt; - Stops the server&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;jekyll --build&lt;/code&gt; - Builds website&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;jekyll --build --w&lt;/code&gt; - Live reload&lt;/li&gt;
+&lt;/ul&gt;
+
+
+&lt;h3&gt;Interactive Ruby Shell&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;irb&lt;/code&gt; - To start the Interactive Ruby Shell&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;load ./path_to_some_file.rb&lt;/code&gt; - To load a file in the Interactive Ruby Shell&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;exit, quit, irb_exit&lt;/code&gt; - Quits the irb session&lt;/li&gt;
+&lt;/ul&gt;
+
+
+&lt;h3&gt;Git&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;git init&lt;/code&gt; - Create an empty git repository or reinitialize an existing one&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;which git&lt;/code&gt; - Find where git is installed&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;git add .&lt;/code&gt; - Adds all the files in the directory to be committed&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;git add &#39;.txt&#39;&lt;/code&gt; - Adds files files using a wildcard&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;git add -A&lt;/code&gt; - Adds a files in the directory to be committed&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;git status&lt;/code&gt; - Show the working tree status&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;git ls-files&lt;/code&gt; - Lists the files already commited&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;git rm&lt;/code&gt; - Removes a file from the directory to be committed&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;git mv oldname newname&lt;/code&gt; - Shorthand for:
+
+&lt;ul&gt;
+&lt;li&gt;mv oldname newname&lt;/li&gt;
+&lt;li&gt;git add newname&lt;/li&gt;
+&lt;li&gt;git rm oldname&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;git add -u&lt;/code&gt; - Removes all the deleted files from the staging area&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;git add README&lt;/code&gt; - Stages your README file, adding it to the list of files to be committed&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;git commit -m &#39;first commit&#39;&lt;/code&gt; - Commits your files, adding the message &amp;ldquo;first commit&amp;rdquo;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;git log --summary&lt;/code&gt; - To see more information for each commit.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;git remote add origin https://github.com/username/Hello-World.git&lt;/code&gt; - Creates a remote named &amp;ldquo;origin&amp;rdquo; pointing at your GitHub repo&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;git branc­h &amp;lt;-name_of_branch-&amp;gt;&lt;/code&gt; - To creat a branch&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;git branc­h&lt;/code&gt; - To view all branches&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;git checkout &amp;lt;-name_of_branch-&amp;gt;&lt;/code&gt; - To switch branches&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;git merge &amp;lt;-name_of_branch-&amp;gt;&lt;/code&gt; - To merge your changes into the master&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;git branch -d &amp;lt;-name_of_branch-&amp;gt;&lt;/code&gt; - To delete a branch&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;git push origin master&lt;/code&gt; - Sends your commits in the &amp;ldquo;master&amp;rdquo; branch to GitHub&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;git push origin &amp;lt;-name_of_branch-&amp;gt;&lt;/code&gt; - To push the branch on github&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;git branch -D &amp;lt;-name_of_branch-&amp;gt;&lt;/code&gt; - Delete branch&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;git push origin --delete &amp;lt;-name_of_branch-&amp;gt;&lt;/code&gt; - Delete remote branch&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;git reset --hard commit 0d1d7.......&lt;/code&gt; - To revert if you have committed junk but not pushed&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;git --help&lt;/code&gt; - Help&lt;/li&gt;
+&lt;/ul&gt;
+
+
+&lt;h3&gt;To keep gh-pages in sync with master&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;git add .&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;git status&lt;/code&gt; - To see what changes are going to be commited&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;git commit -m &#39;Some descriptive commit message&#39;&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;git push origin master&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+
+&lt;p&gt;&lt;strong&gt;Now, when I use gh-pages, there are only a few more commands that I have to use after the above:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;git checkout gh-pages&lt;/code&gt; - To go to the gh-pages branch&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;git rebase master&lt;/code&gt; - To bring gh-pages up to date with master&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;git push origin gh-pages&lt;/code&gt; - To commit the changes&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;git checkout master&lt;/code&gt; - To return to the master branch&lt;/li&gt;
+&lt;/ul&gt;
+
+
+&lt;p&gt;Links: &lt;a href=&quot;https://help.github.com/articles/set-up-git#platform-mac&quot;&gt;Set Up Git&lt;/a&gt; |
+&lt;a href=&quot;https://help.github.com/articles/create-a-repo&quot;&gt;Create A Repo&lt;/a&gt; |
+&lt;a href=&quot;https://help.github.com/articles/fork-a-repo&quot;&gt;Fork A Repo&lt;/a&gt; |
+&lt;a href=&quot;https://help.github.com/articles/be-social&quot;&gt;Be Social&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>The World's Most Advanced Prosthetic Limb</title>
@@ -31,10 +158,10 @@
     
     <item>
       <title>A Simple Responsive CSS Grid</title>
-      <link>http://briannaja.com/post/a-simple-responsive-css-grid+copy</link>
+      <link>http://briannaja.com/post/a-simple-responsive-css-grid</link>
       <pubDate>Tue, 25 Jun 2013 00:00:00 -0400</pubDate>
       <author>Brian Naja</author>
-      <guid>http://functionn.github.com/post/a-simple-responsive-css-grid copy</guid>
+      <guid>http://functionn.github.com/post/a-simple-responsive-css-grid</guid>
       <description>
 
 &lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;css&quot;&gt;&lt;span class=&quot;lineno&quot;&gt;  1&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;*&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt; 

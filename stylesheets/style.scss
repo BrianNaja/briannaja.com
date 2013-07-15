@@ -198,6 +198,15 @@ pre {
   color: $charcoal;
 }
 
+code {
+  background-color: lighten($charcoal, 75%);
+  padding: 2px 4px;
+  border-radius: 2px;
+  color: $charcoal;
+  font-weight: 400;
+  font-size: 0.9em;
+}
+
 .highlight {
   font-size: 0.9em;
 }

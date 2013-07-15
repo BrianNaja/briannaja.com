@@ -83,9 +83,11 @@
 			<h4>Recent Writings From the archives</h4>
 			<ul class="disc">
 				
+				<li><a href="/post/terminal-cheat-sheet">Terminal Cheat Sheet</a></li>
+				
 				<li><a href="/post/the-world%27s-most-advanced-prosthetic-limb">The World's Most Advanced Prosthetic Limb</a></li>
 				
-				<li><a href="/post/a-simple-responsive-css-grid+copy">A Simple Responsive CSS Grid</a></li>
+				<li><a href="/post/a-simple-responsive-css-grid">A Simple Responsive CSS Grid</a></li>
 				
 				<li><a href="/post/markdown-cheat-sheet">Markdown Cheat Sheet</a></li>
 				
@@ -100,8 +102,6 @@
 				<li><a href="/post/right-to-work-a-closer-look">Right To Work - A Closer Look</a></li>
 				
 				<li><a href="/video/time-lapse-footage-of-the-Earth">Time-lapse footage of the Earth</a></li>
-				
-				<li><a href="/post/people-ask-to-see-stars">People ask to see stars</a></li>
 				
 			</ul>
 	    </aside>
