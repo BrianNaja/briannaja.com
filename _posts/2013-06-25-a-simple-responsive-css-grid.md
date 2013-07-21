@@ -3,8 +3,10 @@ title: A Simple Responsive CSS Grid
 layout: post
 category: post
 ---
+[Download](https://gist.github.com/BrianNaja/5800819) this at GitHub
 
-{% highlight css linenos %}
+{% highlight css %}
+
 * { 
 	-moz-box-sizing: border-box; 
 	-webkit-box-sizing: border-box; 
@@ -17,18 +19,18 @@ category: post
  	min-width: 768px; 
  	margin: 0 auto; 
 }
-
+ 
 .column, .columns { 
 	float: left; 
 	min-height: 1px; 
 	padding: 0 15px; 
 	position: relative; 
 }
-
+ 
 [class*="column"] + [class*="column"]:last-child { 
 	float: right; 
 }
-
+ 
 [class*="column"] + [class*="column"].end { 
 	float: left;
 }
@@ -36,51 +38,51 @@ category: post
 .row .one { 
 	width: 8.33%; 
 }
-
+ 
 .row .two { 
 	width: 16.66%; 
 }
-
+ 
 .row .three { 
 	width: 25%;
 }
-
+ 
 .row .four {
 	 width: 33.33%;
 }
-
+ 
 .row .five {
  width: 41.66%; 
 }
-
+ 
 .row .six { 
 	width: 50%; 
 }
-
+ 
 .row .seven { 
 	width: 58.33%; 
 }
-
+ 
 .row .eight { 
 	width: 66.66%; 
 }
-
+ 
 .row .nine { 
 	width: 75%; 
 }
-
+ 
 .row .ten { 
 	width: 83.33%; 
 }
-
+ 
 .row .eleven { 
 	width: 91.66% ;
 }
-
+ 
 .row .twelve { 
 	width: 100%; 
 }
-
+ 
 .centered { 
     float: none; 
     margin: 0 auto; 
@@ -90,55 +92,57 @@ category: post
 	content:""; 
 	display: table; 
 }
-
+ 
 .row:after, .clearfix:after { 
 	clear: both; 
 }
-
+ 
 .row, .clearfix {
 	 zoom: 1; 
 }  
   
   /* !Mobile */
 @media only screen and (max-width: 767px) {		
-  body { 
-  	-webkit-text-size-adjust: none; 
-      -ms-text-size-adjust: none; 
-      width: 100%; 
-      min-width: 0; 
-      margin-left: 0; 
-      margin-right: 0; 
-      padding-left: 0; 
-      padding-right: 0; 
-  }
-      
-  .row { 
-  	width: auto; 
-  	min-width: 0; 
-  	margin-left: 0; 
-  	margin-right: 0;
-  }
-      
-  .column, .columns {
-  	 width: auto !important; 
-  	 float: none; 
-  }
-  
-  .column:last-child, .columns:last-child { 
-  	float: none; 
-  }
-  
-  [class*="column"] + [class*="column"]:last-child { 
-  	float: none; 
-  }
-  
-  .column:before, .columns:before, .column:after, .columns:after { 
-  	content:""; 
-  	display:table; 
-  }
-  
-  .column:after, .columns:after { 
-  clear: both; 
-  }
+body { 
+	-webkit-text-size-adjust: none; 
+    -ms-text-size-adjust: none; 
+    width: 100%; 
+    min-width: 0; 
+    margin-left: 0; 
+    margin-right: 0; 
+    padding-left: 0; 
+    padding-right: 0; 
 }
+    
+.row { 
+	width: auto; 
+	min-width: 0; 
+	margin-left: 0; 
+	margin-right: 0;
+}
+    
+.column, .columns {
+	 width: auto !important; 
+	 float: none; 
+}
+ 
+.column:last-child, .columns:last-child { 
+	float: none; 
+}
+ 
+[class*="column"] + [class*="column"]:last-child { 
+	float: none; 
+}
+ 
+.column:before, .columns:before, .column:after, .columns:after { 
+	content:""; 
+	display:table; 
+}
+ 
+.column:after, .columns:after { 
+clear: both; 
+}
+ 
+}
+
 {% endhighlight %}
